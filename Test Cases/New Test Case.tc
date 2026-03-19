@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a36b225-3e23-4ba0-aca5-51f2a493cbea</testCaseGuid>
+</TestCaseEntity>
