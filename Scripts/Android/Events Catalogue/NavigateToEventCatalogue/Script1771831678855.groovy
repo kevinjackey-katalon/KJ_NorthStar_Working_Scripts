@@ -25,7 +25,7 @@ if (!applicationrunning) {
 	KeywordUtil.logInfo(' Application instance not found. Executing Login Member test case')
 	WebUI.callTestCase(findTestCase('Android/Login/Login Member'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
-		boolean dockMenuVisible = Mobile.verifyElementExist(findTestObject('Dock Menu/android.widget.ImageView - Dock Menu Button'), 10, FailureHandling.OPTIONAL)
+		boolean dockMenuVisible = Mobile.verifyElementExist(findTestObject('Android/Dock Menu/android.widget.ImageView - Dock Menu Button'), 10, FailureHandling.OPTIONAL)
 		
 		if (!dockMenuVisible ) {
 			KeywordUtil.logInfo('Dock Menu not found. Executing Login Member test case')
@@ -37,7 +37,7 @@ if (!applicationrunning) {
 // STEP 1 - Open Dock Menu
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 1: Tap Dock Menu button')
-CommonFunctions.safeTap(findTestObject('Dock Menu/android.widget.ImageView - Dock Menu Button'), 0)
+CommonFunctions.safeTap(findTestObject('Android/Dock Menu/android.widget.ImageView - Dock Menu Button'), 10)
 
 // -----------------------------------------------------------------------------
 // STEP 2 - Wait for menu to render
@@ -49,11 +49,11 @@ Mobile.delay(5)
 // STEP 3 - Search for Events Catalogue in menu
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 3: Tap Menu Search Field')
-CommonFunctions.safeTap(findTestObject('Dock Menu/android.widget.EditText  - Menu Search Field'), 0)
+CommonFunctions.safeTap(findTestObject('Android/Dock Menu/android.widget.EditText  - Menu Search Field'), 10)
 Mobile.delay(5)
 
 KeywordUtil.logInfo('STEP 4: Type "Events Catalogue" into Menu Search Field')
-CommonFunctions.safeSendKeys(findTestObject('Dock Menu/android.widget.EditText  - Menu Search Field'), 'Events Catalogue', 0)
+CommonFunctions.safeSendKeys(findTestObject('Android/Dock Menu/android.widget.EditText  - Menu Search Field'), 'Events Catalogue', 10)
 
 KeywordUtil.logInfo('STEP 5: Hide keyboard (if displayed)')
 Mobile.hideKeyboard()
@@ -62,4 +62,4 @@ Mobile.hideKeyboard()
 // STEP 4 - Open Events Catalogue
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 6: Tap "Events Catalogue" menu item')
-CommonFunctions.safeTap(findTestObject('Dock Menu/android.widget.Button - Events Catalogue'), 0)
+CommonFunctions.safeTap(findTestObject('Android/Dock Menu/android.widget.Button - Events Catalogue'), 10)

@@ -58,7 +58,7 @@ class CommonFunctions {
 				while (attempt < retries) {
 					try {
 						Mobile.waitForElementPresent(to, timeout, FailureHandling.OPTIONAL)
-						Mobile.tap(to, timeout)
+						Mobile.tap(to, timeout, FailureHandling.OPTIONAL)
 		
 						return
 		

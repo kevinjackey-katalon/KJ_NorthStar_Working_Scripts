@@ -20,27 +20,28 @@ import internal.GlobalVariable
 KeywordUtil.logInfo('STEP 0: Set Android driver preferences (platform-specific)')
 CustomKeywords.'com.platform.specific.AndroidOnly.setDriverPreferences_Android'()
 Mobile.startApplication(GlobalVariable.appPath, true)
+Mobile.delay(25) // Wait for app to load, adjust as needed
 
 // -----------------------------------------------------------------------------
 // STEP 1 - Navigate to Login screen
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 1: Tap "Continue to Login"')
-CommonFunctions.safeTap(findTestObject('Object Repository/Login/android.widget.Button - Continue to Login'))
+CommonFunctions.safeTap(findTestObject('Object Repository/Android/Login/android.widget.Button - Continue to Login'))
 
 // -----------------------------------------------------------------------------
 // STEP 2 - Enter credentials (Member Number + Password)
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 2: Enter Member Number')
-CommonFunctions.safeSendKeys(findTestObject('Object Repository/Login/android.widget.member_number'), GlobalVariable.loginUsername)
+CommonFunctions.safeSendKeys(findTestObject('Object Repository/Android/Login/android.widget.member_number'), GlobalVariable.loginUsername)
 
 KeywordUtil.logInfo('STEP 3: Enter Password')
-CommonFunctions.safeSendKeys(findTestObject('Object Repository/Login/android.widget.member_password'), GlobalVariable.loginPassword)
+CommonFunctions.safeSendKeys(findTestObject('Object Repository/Android/Login/android.widget.member_password'), GlobalVariable.loginPassword)
 
 // -----------------------------------------------------------------------------
 // STEP 3 - Submit login
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 4: Tap "Sign In"')
-CommonFunctions.safeTap(findTestObject('Object Repository/Login/android.widget.Button - Sign In'))
+CommonFunctions.safeTap(findTestObject('Object Repository/Android/Login/android.widget.Button - Sign In'))
 
 // -----------------------------------------------------------------------------
 // STEP 4 - Handle permission popups (only when AutoGrantPermissions is disabled)
@@ -50,20 +51,23 @@ KeywordUtil.logInfo("STEP 5: Handle permission popups if autoGrantPermissions = 
 if (GlobalVariable.autoGrantPermissions == false) {
 
 	// Calendar permission
-	if (Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - Allow Calendar'), 5, FailureHandling.OPTIONAL)) {
+	if (Mobile.verifyElementExist(findTestObject('Android/Login/android.widget.Button - Allow Calendar'), 5, FailureHandling.OPTIONAL)) {
 		KeywordUtil.logInfo(' - Calendar permission popup detected. Tapping "Allow"')
-		CommonFunctions.safeTap(findTestObject('Login/android.widget.Button - Allow Calendar'), 0)
+		CommonFunctions.safeTap(findTestObject('Android/Login/android.widget.Button - Allow Calendar'), 0)
 	}
 
 	// Camera access informational / continue dialog
-	if (Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - CONTINUE - camera access'), 5, FailureHandling.OPTIONAL)) {
+	if (Mobile.verifyElementExist(findTestObject('Android/Login/android.widget.Button - CONTINUE - camera access'), 5, FailureHandling.OPTIONAL)) {
 		KeywordUtil.logInfo(' - Camera access "CONTINUE" popup detected. Tapping "CONTINUE"')
-		CommonFunctions.safeTap(findTestObject('Login/android.widget.Button - CONTINUE - camera access'), 0)
+		CommonFunctions.safeTap(findTestObject('Android/Login/android.widget.Button - CONTINUE - camera access'), 0)
 	}
 
 	// Camera permission (while using the app)
-	if (Mobile.verifyElementExist(findTestObject('Login/android.widget.Button - While using the app - take pictures'), 5, FailureHandling.OPTIONAL)) {
+	if (Mobile.verifyElementExist(findTestObject('Android/Login/android.widget.Button - While using the app - take pictures'), 5, FailureHandling.OPTIONAL)) {
 		KeywordUtil.logInfo(' - Camera permission popup detected. Tapping "While using the app"')
-		CommonFunctions.safeTap(findTestObject('Login/android.widget.Button - While using the app - take pictures'), 0)
+		CommonFunctions.safeTap(findTestObject('Android/Login/android.widget.Button - While using the app - take pictures'), 0)
 	}
 }
+
+//Allow time for login to complete
+Mobile.delay(5)
