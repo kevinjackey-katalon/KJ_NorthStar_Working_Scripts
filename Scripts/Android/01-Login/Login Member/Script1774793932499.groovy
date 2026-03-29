@@ -1,5 +1,5 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.common.actions.CommonFunctions as CommonFunctions
+import com.common.actions.CommonFunctions as CommonFunctions 
 import com.platform.specific.AndroidOnly as AndroidOnly
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
@@ -26,7 +26,7 @@ Mobile.delay(25) // Wait for app to load, adjust as needed
 // STEP 1 - Navigate to Login screen
 // -----------------------------------------------------------------------------
 KeywordUtil.logInfo('STEP 1: Tap "Continue to Login"')
-CommonFunctions.safeTap("Continue to Login Button", findTestObject('Object Repository/Android/01-Login/android.widget.Button - Continue to Login'))
+CommonFunctions.safeTap("Continue to Login Button", findTestObject('Object Repository/Android/01-Login/android.widget.Button - Continue to Login'),30)
 
 // -----------------------------------------------------------------------------
 // STEP 2 - Enter credentials (Member Number + Password)

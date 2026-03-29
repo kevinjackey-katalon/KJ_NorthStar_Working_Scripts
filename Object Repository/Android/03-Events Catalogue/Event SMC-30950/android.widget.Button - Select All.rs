@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.Button - Select All</name>
    <tag></tag>
-   <elementGuidId>48925ab3-79e8-48b8-832e-227853d9efdc</elementGuidId>
+   <elementGuidId>2157eb92-4172-4ac5-b797-8879f04fa5b8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.Button</value>
-      <webElementGuid>b8268a57-3206-4748-bac1-96909fa692c3</webElementGuid>
+      <webElementGuid>78d5f989-abf8-4586-bc75-067ec13a54cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,15 +21,15 @@
       <name>index</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>a3a7ee62-aef2-4680-8046-954bee6a1d61</webElementGuid>
+      <webElementGuid>4289ab48-b3ad-426b-aa36-e6ef9f98a2d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Select All (1)</value>
-      <webElementGuid>9c22eb1a-8314-4e23-b131-13113eb168c4</webElementGuid>
+      <value>Select All</value>
+      <webElementGuid>9dc8b779-8469-4804-b04b-32a016bef0a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.sibisoft.clubnowautomation</value>
-      <webElementGuid>173416a6-e405-44e6-8d02-f8dd138b56a6</webElementGuid>
+      <webElementGuid>bf46fc9a-e8c7-44de-b9f0-7d7494489abd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3f829f91-de55-427b-9739-6e4b16fc75f7</webElementGuid>
+      <webElementGuid>60cb794a-1308-439f-844c-37041ffc7d6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7176185e-8c49-48e5-a076-5cb0895a63c5</webElementGuid>
+      <webElementGuid>31630638-c2cf-4929-9cf4-50214ee6ed84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>55ec5b32-f24e-4b51-9953-ba670d510ea8</webElementGuid>
+      <webElementGuid>c75ae759-cb11-4013-954c-a4cb0548f157</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9b7e5df2-274d-4295-96fc-00c7baaebf8a</webElementGuid>
+      <webElementGuid>70c2aa64-177c-4609-862a-b61fecc6707a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>87922082-2af3-43ac-bb9a-d8a4551b5221</webElementGuid>
+      <webElementGuid>698a040c-2c2e-4971-b2bc-9b8404c2201e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5ba247f2-55ae-4698-9757-710b4289c4ce</webElementGuid>
+      <webElementGuid>415040ab-3305-431e-a30a-8ed156bcb117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>65ca0ade-0c3f-409a-bc7d-026b011462bf</webElementGuid>
+      <webElementGuid>625bc365-6f26-467a-97c2-f85e304bf800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>431a0933-6c8a-4f9a-83ba-5cb652f8e248</webElementGuid>
+      <webElementGuid>ac340f98-536b-4be8-8edc-2dc4ea62a4c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6e8ea840-5a41-4bfe-98d6-0789327883e2</webElementGuid>
+      <webElementGuid>3c504259-69b4-45b4-9539-7792023806ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>75fbea94-6aed-43b1-a921-e8089e599073</webElementGuid>
+      <webElementGuid>f4534e27-0c87-4238-94d8-24750114609d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>x</name>
       <type>Main</type>
       <value>42</value>
-      <webElementGuid>c5b8e77b-c805-4b51-8fde-2bae48543597</webElementGuid>
+      <webElementGuid>983b2d1e-d22b-4b76-98ec-e135376f7c17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1193</value>
-      <webElementGuid>cd8efe20-dcde-45e1-b01e-922c453a2739</webElementGuid>
+      <webElementGuid>eb3090d7-0153-43a7-9ed0-0539069b0f6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>width</name>
       <type>Main</type>
       <value>488</value>
-      <webElementGuid>20c15701-8f87-4152-9888-135b2522842b</webElementGuid>
+      <webElementGuid>4f4a85cb-eefa-453b-bc94-28340ea00d28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>height</name>
       <type>Main</type>
       <value>110</value>
-      <webElementGuid>e1004d31-bcfe-470e-a239-e711f156e0c7</webElementGuid>
+      <webElementGuid>583e2cdd-f7f5-4d3f-918e-6004323555d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[42,1193][530,1303]</value>
-      <webElementGuid>6813c4a3-7b13-4dda-861d-f1f5a943565f</webElementGuid>
+      <webElementGuid>c1d5f7e3-586c-4da5-8ac5-6aeaf33c8f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>daeb5f86-64fd-4a8b-80d6-0cbf2ffa5a20</webElementGuid>
+      <webElementGuid>efc8ea46-9896-4343-a4b6-724b83f18c8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>hint</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>0312d89d-50c5-4b55-9157-d7a77d9d29c8</webElementGuid>
+      <webElementGuid>6aba659b-531a-4f43-b1b1-c9ac1811d1f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,49 +181,28 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[2]</value>
-      <webElementGuid>7678350b-e66d-4cef-964a-d305278b50d8</webElementGuid>
+      <webElementGuid>f31163c3-084e-4413-b523-355c8156bd2d</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.Button' and (@text = 'Select All (1)' or . = 'Select All (1)')]</locator>
    <locatorCollection>
       <entry>
-         <key>NAME</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.Button' and (@text = 'Select All (1)' or . = 'Select All (1)')]</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;Select All (1)&quot;)</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.Button</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value></value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value></value>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.Button' and (contains(@text, 'Select All') or contains(., 'Select All'))]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -231,7 +210,20 @@
       </entry>
       <entry>
          <key>CUSTOM</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.Button</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.Button&quot;).text(&quot;Select All (1)&quot;)</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

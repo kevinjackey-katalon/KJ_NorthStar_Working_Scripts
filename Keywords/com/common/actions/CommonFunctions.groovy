@@ -1,6 +1,6 @@
 package com.common.actions
 
-import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebDriver 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory

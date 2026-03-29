@@ -29,7 +29,7 @@ class CloseMobileApplication {
 
         // OPTIONAL: close after each test case (uncomment if you want isolation)
         KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test case')
-        //Mobile.closeApplication(FailureHandling.OPTIONAL)
+        Mobile.closeApplication(FailureHandling.OPTIONAL)
     }
 
     @AfterTestSuite
@@ -38,6 +38,6 @@ class CloseMobileApplication {
 
         // OPTIONAL: close after suite (uncomment if desired)
         KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test suite')
-        //Mobile.closeApplication(FailureHandling.OPTIONAL)
+        Mobile.closeApplication(FailureHandling.OPTIONAL)
     }
 }
