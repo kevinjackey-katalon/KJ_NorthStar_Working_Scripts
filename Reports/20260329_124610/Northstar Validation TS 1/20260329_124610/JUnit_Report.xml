@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Northstar Validation TS 1" time="0.33" tests="2" failures="0" errors="2">
+   <testsuite name="Northstar Validation TS 1" tests="2" failures="0" errors="2" time="0.33" skipped="0" timestamp="2026-03-29T16:46:12.475Z" hostname="kevin.jackey - 192.168.1.222" id="Test Suites/Northstar Validation TS 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_124610/Northstar Validation TS 1/20260329_124610"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_124610/Northstar Validation TS 1/20260329_124610/execution0.log, /Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_124610/Northstar Validation TS 1/20260329_124610/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.222"/>
+         <property name="hostAddress" value="192.168.1.222"/>
+         <property name="projectName" value="KJ_NorthStar_Working_Scripts"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+      </properties>
+      <testcase name="Test Cases/Android/03-Events/Open and Validate Event SMC-28257" time="0.14" classname="Test Cases/Android/03-Events/Open and Validate Event SMC-28257" status="ERROR">
+         <error type="ERROR" message="Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.&#xa;Reason:&#xa;java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'&#xa;	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)&#xa;	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-03-2026T12:46:12 - [TEST_CASE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-28257: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed"): TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T12:46:12 - [TEST_STEP][ERROR] - if (!(applicationrunning)): Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)"): STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow)."): STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T12:46:12 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE): Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [MESSAGE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=ERROR
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST CASE: $testCaseContext.getTestCaseId() | status=$testCaseContext.getTestCaseStatus()): [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=ERROR
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=ERROR]]></system-out>
+         <system-err><![CDATA[29-03-2026T12:46:12 - [TEST_CASE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-28257: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-28257.run(Open and Validate Event SMC-28257:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/03-Events/Open and Validate Event SMC-30950" time="0.058" classname="Test Cases/Android/03-Events/Open and Validate Event SMC-30950" status="ERROR">
+         <error type="ERROR" message="Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.&#xa;Reason:&#xa;java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'&#xa;	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)&#xa;	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-03-2026T12:46:12 - [TEST_CASE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-30950: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed"): TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T12:46:12 - [TEST_STEP][ERROR] - if (!(applicationrunning)): Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)"): STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow)."): STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T12:46:12 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE): Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [MESSAGE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=ERROR
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST CASE: $testCaseContext.getTestCaseId() | status=$testCaseContext.getTestCaseStatus()): [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=ERROR
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=ERROR]]></system-out>
+         <system-err><![CDATA[29-03-2026T12:46:12 - [TEST_CASE][ERROR] - Test Cases/Android/03-Events/Open and Validate Event SMC-30950: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Object Repository/Android/02-Events Catalogue/NavigateToEventCatalogue'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:77)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774802770954.run(TempTestSuite1774802770954.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-03-2026T12:46:12 - [TEST_SUITE][ERROR] - Northstar Validation TS 1: null
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - Start listener action : afterTestSuite: [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1
+
+29-03-2026T12:46:12 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST SUITE: $testSuiteContext.getTestSuiteId()): [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1
+
+29-03-2026T12:46:12 - [MESSAGE][INFO] - [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1]]></system-out>
+      <system-err><![CDATA[29-03-2026T12:46:12 - [TEST_SUITE][ERROR] - Northstar Validation TS 1: null]]></system-err>
+   </testsuite>
+</testsuites>

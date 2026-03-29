@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>android.widget.button - Click Reservation Search Result</name>
+   <tag></tag>
+   <elementGuidId>b6ced961-563f-4b95-8641-d691df4bf9b6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>:r6:-option-0</value>
+      <webElementGuid>43cef409-55dd-4d78-98bd-5da9f9d0c694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.View</value>
+      <webElementGuid>9e99f562-7229-4f30-a1fe-765c2897d49b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reservation</value>
+      <webElementGuid>74957b48-3133-4589-90b4-0dc9a49ad4e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>7783140a-8415-40d9-a16d-546837f0b256</webElementGuid>
+   </webElementProperties>
+   <locatorCollection>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[contains(@resource-id, ':r6:-option-0') and @class = 'android.view.View']</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.ListView</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@resource-id=&quot;:r6:-option-0&quot;]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>//*[@resource-id=&quot;:r6:-listbox&quot;]</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

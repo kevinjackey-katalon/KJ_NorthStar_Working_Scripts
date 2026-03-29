@@ -34,7 +34,7 @@ public class AndroidOnly {
 	 * - Driver preferences are set before `Mobile.startApplication()` / `Mobile.startExistingApplication()`.
 	 */
 	@Keyword
-	def setDriverPreferences_Android() {
+	static void setDriverPreferences_Android() {
 		// -----------------------------------------------------------------------------
 		// LOG - Print capability values from GlobalVariable (helps troubleshooting)
 		// -----------------------------------------------------------------------------
@@ -50,7 +50,10 @@ public class AndroidOnly {
 			"NewCommandTimeout=${GlobalVariable.newCommandTimeout}, " +
 			"AppWaitDuration=${GlobalVariable.appWaitDuration}, " +
 			"app=${GlobalVariable.appPath}, " +
-			"Uiautomator2ServerInstallTimeout=${GlobalVariable.uiautomator2ServerInstallTimeout}")
+			"Uiautomator2ServerInstallTimeout=${GlobalVariable.uiautomator2ServerInstallTimeout}" +
+			"enableNetwork=${GlobalVariable.enableNetwork}" +
+			"enableAppProfiling=${GlobalVariable.enableAppProfiling}" )
+		
 
 		// -----------------------------------------------------------------------------
 		// LOCAL DEVICE - Set Mobile driver preferences (used by Katalon Mobile keywords)
@@ -67,6 +70,10 @@ public class AndroidOnly {
 		RunConfiguration.setMobileDriverPreferencesProperty('appWaitDuration', GlobalVariable.appWaitDuration)
 		RunConfiguration.setMobileDriverPreferencesProperty('newCommandTimeout', GlobalVariable.newCommandTimeout)
 		RunConfiguration.setMobileDriverPreferencesProperty('app', GlobalVariable.appPath)
+		RunConfiguration.setMobileDriverPreferencesProperty('enableNetwork', GlobalVariable.enableNetwork)
+		RunConfiguration.setMobileDriverPreferencesProperty('enableAppProfiling', GlobalVariable.enableAppProfiling)
+		
+		
 
 		// -----------------------------------------------------------------------------
 		// REMOTE/TESTCLOUD - Set Remote driver preferences (used when running Remote)
@@ -83,6 +90,8 @@ public class AndroidOnly {
 		RunConfiguration.setDriverPreferencesProperty('Remote', 'appWaitDuration', GlobalVariable.appWaitDuration)
 		RunConfiguration.setDriverPreferencesProperty('Remote', 'newCommandTimeout', GlobalVariable.newCommandTimeout)
 		RunConfiguration.setDriverPreferencesProperty('Remote', 'app', GlobalVariable.appPath)
+		RunConfiguration.setDriverPreferencesProperty('Remote', 'enableNetwork', GlobalVariable.enableNetwork)
+		RunConfiguration.setDriverPreferencesProperty('Remote', 'enableAppProfiling', GlobalVariable.enableAppProfiling)
 	}
 
 	/**
@@ -107,27 +116,36 @@ public class AndroidOnly {
 		// STEP 1 - Open Event List Search
 		// -----------------------------------------------------------------------------
 		KeywordUtil.logInfo('STEP 1: Tap magnifying glass to open Event search')
-		CommonFunctions.safeTap(findTestObject('Android/Events Catalogue/android.widget.Button - magnifying glass'), 10)
+		CommonFunctions.safeTap("Magnifying Glass Button", findTestObject('Android/03-Events Catalogue/android.widget.Button - magnifying glass'), 60)
 
 		// -----------------------------------------------------------------------------
 		// STEP 2 - Focus and populate Search Field
 		// -----------------------------------------------------------------------------
 		KeywordUtil.logInfo('STEP 2: Tap Search Events input field')
-		CommonFunctions.safeTap(findTestObject('Android/Events Catalogue/android.widget.EditText - Search Events List'), 10)
+		CommonFunctions.safeTap("Tap Search Events Field", findTestObject('Android/03-Events Catalogue/android.widget.EditText - Search Events List'), 10)
 
 		// -----------------------------------------------------------------------------
 		// STEP 3 - Search for the targeted event
 		// -----------------------------------------------------------------------------
 		String eventSearchText = reservationID
 		KeywordUtil.logInfo('STEP 3: Enter search text: ' + eventSearchText)
-		CommonFunctions.safeSendKeys(findTestObject('Android/Events Catalogue/android.widget.EditText - Search Events List'), eventSearchText, 10)
-		Mobile.delay(5) // Step description: Allow time for search result list to render
+		
+		//Hiding the keyboard is causing the item window to disappear, so skipping
+		boolean noHideKeyboard = true
+		CommonFunctions.safeSendKeys("Populate Search Event Field", findTestObject('Android/03-Events Catalogue/android.widget.EditText - Search Events List'), eventSearchText, 10, 3, noHideKeyboard)
 
 		// -----------------------------------------------------------------------------
-		// STEP 4 - Open the event from search results
+		// STEP 4 - Re-tap Search Field to ensure focus 
 		// -----------------------------------------------------------------------------
-		KeywordUtil.logInfo('STEP 4: Select event from results: ' + eventSearchText)
-		CommonFunctions.safeTap(findTestObject('Object Repository/Android/Events Catalogue/android.widget.button - Click Reservation Search Result'), 10)
+		//KeywordUtil.logInfo('STEP 4: Re-Tap Search Events input field')
+		//CommonFunctions.safeTap("Re-Tap Search Events Field", findTestObject('Android/03-Events Catalogue/android.widget.EditText - Search Events List'), 10)
+		
+		
+		// -----------------------------------------------------------------------------
+		// STEP 5 - Open the event from search results
+		// -----------------------------------------------------------------------------
+		KeywordUtil.logInfo('STEP 5: Select event from results: ' + eventSearchText)
+		CommonFunctions.safeTap("Tap First Event", findTestObject('Object Repository/Android/03-Events Catalogue/android.widget.button - Click Reservation Search Result'), 10)
 		Mobile.delay(5) // Step description: Allow time for event detail page to load
 	}
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open and Validate Event SMC-28257</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4105f6d5-10e8-4f9e-871e-19edb8a0051c</testCaseGuid>
+</TestCaseEntity>

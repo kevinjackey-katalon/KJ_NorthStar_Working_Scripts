@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Northstar Validation TS 1,,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.336s,ERROR
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-28257,,,GenAI,29-03-2026 12:46:12,29-03-2026 12:46:12,0.140s,ERROR
+"comment(""TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.018s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.002s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.002s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.029s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.010s,ERROR
+Start listener action : afterTestCase,,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.015s,PASSED
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-30950,,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.058s,ERROR
+"comment(""TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.002s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.003s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.001s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.002s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.005s,ERROR
+Start listener action : afterTestCase,,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.001s,PASSED
+,,,,,,,
+Start listener action : afterTestSuite,,,,29-03-2026 12:46:12,29-03-2026 12:46:12,0.002s,PASSED

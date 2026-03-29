@@ -28,8 +28,8 @@ class CloseMobileApplication {
         KeywordUtil.logInfo("[Listener] AFTER TEST CASE: ${testCaseContext.getTestCaseId()} | status=${testCaseContext.getTestCaseStatus()}")
 
         // OPTIONAL: close after each test case (uncomment if you want isolation)
-        // KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test case')
-        // Mobile.closeApplication(FailureHandling.OPTIONAL)
+        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test case')
+        //Mobile.closeApplication(FailureHandling.OPTIONAL)
     }
 
     @AfterTestSuite
@@ -37,7 +37,7 @@ class CloseMobileApplication {
         KeywordUtil.logInfo("[Listener] AFTER TEST SUITE: ${testSuiteContext.getTestSuiteId()}")
 
         // OPTIONAL: close after suite (uncomment if desired)
-        // KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test suite')
-        // Mobile.closeApplication(FailureHandling.OPTIONAL)
+        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test suite')
+        //Mobile.closeApplication(FailureHandling.OPTIONAL)
     }
 }
