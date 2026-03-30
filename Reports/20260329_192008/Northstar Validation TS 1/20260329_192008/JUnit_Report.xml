@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Northstar Validation TS 1" time="1111.183" tests="2" failures="1" errors="0">
+   <testsuite name="Northstar Validation TS 1" tests="2" failures="1" errors="0" time="1111.183" skipped="0" timestamp="2026-03-29T23:20:09.960Z" hostname="kevin.jackey - 192.168.1.222" id="Test Suites/Northstar Validation TS 1">
+      <properties>
+         <property name="deviceName" value="Samsung Galaxy S23"/>
+         <property name="devicePlatform" value="ANDROID"/>
+         <property name="logFolder" value="/Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_192008/Northstar Validation TS 1/20260329_192008"/>
+         <property name="logFiles" value="/Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_192008/Northstar Validation TS 1/20260329_192008/execution0.log, /Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_192008/Northstar Validation TS 1/20260329_192008/console0.log"/>
+         <property name="attachments" value="/Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Reports/20260329_192008/Northstar Validation TS 1/20260329_192008/1774826566795.png"/>
+         <property name="hostName" value="kevin.jackey - 192.168.1.222"/>
+         <property name="remoteDriverUrl" value="https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NzQ5NzY5MjAsImlhdCI6MTc3NDgwNDEyMCwianRpIjoib25ydG5hOmI2YTQ1N2U2LTUxNjQtZTUzNy0xNjE2LWJjMDU4OWExZTJlYSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6ImRkMjQ1YjRmLTZiMGQtODQ1NS1iYTMwLWVlOGEwNTZmMDJmZiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzQ4MDM0NTMyODAsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.dRjGg4nYVJzxWBeDd-Sw7juQGf1LGj5gnWK9Oh5B2lN7nw6SP0HpFSqdAU9mnsvYcNtZyqEemUY0hPZUBKoXJGZTVpK4p6piCpdlTRZs5wE59FA9C2FGorhzHHjzJCZ6GG7IIuMGn_dV_Rd8-cClPtGG9pK5PR9pz_vZlfYN228RzfzmFPMpr_eq55y83NFQX2sXwmRGeKWIE4Nj5br8KRAYU-U-AUwnBgjmq0YQ_WRA9GS4ntUqHJ3OhqrcsQfSISWY8wbINxvuHfgWBmeCZ3qfZfxFCUFAUjwlDZ_phaaP8QKZyhUU4_Q-gzHOMmrsrNZz1rC25QyhqfvZugNYIQ@testcloud.katalon.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;app&quot;: &quot;7f6739f8-16fa-4e6f-8df2-03064494749e&quot;,&#xa;  &quot;Uiautomator2ServerLaunchTimeout&quot;: 200000,&#xa;  &quot;dontStopAppOnReset&quot;: false,&#xa;  &quot;enableAppProfiling&quot;: false,&#xa;  &quot;uiautomator2ServerInstallTimeout&quot;: 200000,&#xa;  &quot;appium:platformVersion&quot;: &quot;16&quot;,&#xa;  &quot;appWaitDuration&quot;: 60000,&#xa;  &quot;enableNetwork&quot;: false,&#xa;  &quot;androidInstallTimeout&quot;: 200000,&#xa;  &quot;newCommandTimeout&quot;: 300,&#xa;  &quot;adbExecTimeout&quot;: 200000,&#xa;  &quot;automationName&quot;: &quot;uiautomator2&quot;,&#xa;  &quot;autoGrantPermissions&quot;: true,&#xa;  &quot;appium:deviceName&quot;: &quot;Any Phone&quot;,&#xa;  &quot;platformName&quot;: &quot;ANDROID&quot;,&#xa;  &quot;ignoreHiddenApiPolicyError&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;metadata&quot;: {&#xa;      &quot;organizationId&quot;: &quot;3288056&quot;,&#xa;      &quot;accountId&quot;: &quot;1649991&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.4.3&quot;,&#xa;      &quot;projectId&quot;: &quot;3251113&quot;&#xa;    },&#xa;    &quot;appiumVersion&quot;: &quot;2.11.2&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;usingTunnel&quot;: false&#xa;  }&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;deviceName&quot;: &quot;Samsung Galaxy S23&quot;,&#xa;  &quot;executionId&quot;: &quot;20e25b4e-4084-4ba1-a1a5-808fff4b0b68&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;3aefe7ad-696e-463d-a54a-97148306ff0a&quot;&#xa;}"/>
+         <property name="userFullName" value="Kevin Jackey"/>
+         <property name="hostAddress" value="192.168.1.222"/>
+         <property name="projectName" value="KJ_NorthStar_Working_Scripts"/>
+         <property name="deviceName" value="Samsung Galaxy S23"/>
+      </properties>
+      <testcase name="Test Cases/Android/03-Events/Open and Validate Event SMC-28257" time="156.664" classname="Test Cases/Android/03-Events/Open and Validate Event SMC-28257" status="PASSED">
+         <system-out><![CDATA[29-03-2026T19:22:51 - [TEST_CASE][PASSED] - Test Cases/Android/03-Events/Open and Validate Event SMC-28257: Test Cases/Android/03-Events/Open and Validate Event SMC-28257
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - comment("TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed"): TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - if (!(applicationrunning)): Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)"): STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow)."): STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:22:51 - [TEST_CASE][PASSED] - Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue: Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)"): STEP 0: Verify Dock Menu is visible (used as login indicator)
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0: Verify Dock Menu is visible (used as login indicator)
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - if (!(applicationrunning)): Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - logInfo(" Application instance not found. Executing Login Member test case"):  Application instance not found. Executing Login Member test case
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] -  Application instance not found. Executing Login Member test case
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:22:51 - [TEST_CASE][PASSED] - Test Cases/Android/01-Login/Login Member: Test Cases/Android/01-Login/Login Member
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - logInfo("STEP 0: Set Android driver preferences (platform-specific)"): STEP 0: Set Android driver preferences (platform-specific)
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - STEP 0: Set Android driver preferences (platform-specific)
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - AndroidOnly.setDriverPreferences_Android(): Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+
+29-03-2026T19:22:51 - [TEST_STEP][PASSED] - startApplication(appPath, true): Started application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - Overriding application: 'D:\APK\ClubNow-Android.apk' by '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - Override application info: '{"id":"7f6739f8-16fa-4e6f-8df2-03064494749e","organizationId":"3288056","name":"ClubNow 3.0","platform":"ANDROID","status":"READY","size":25370953,"storagePath":"be88be85-0c36-420a-a26c-9312ec50a6f2","uploadedDate":"2026-03-25T15:10:15.620697","createdDate":"2026-03-25T15:10:15.620697","updatedDate":"2026-03-25T15:10:19.088786","fileName":"CN30.apk","metadata":{"identifier":"com.sibisoft.clubnowautomation","name":"ClubNow 3.0","version":"1.0.1"}}'
+
+29-03-2026T19:22:51 - [MESSAGE][INFO] - Starting application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:23:05 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 10 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json)
+
+29-03-2026T19:23:05 - [MESSAGE][PASSED] - Started application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:23:05 - [TEST_STEP][PASSED] - delay(25): Delayed 25 second(s)
+
+29-03-2026T19:23:30 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+29-03-2026T19:23:30 - [TEST_STEP][PASSED] - logInfo("STEP 1: Tap "Continue to Login""): STEP 1: Tap "Continue to Login"
+
+29-03-2026T19:23:30 - [MESSAGE][INFO] - STEP 1: Tap "Continue to Login"
+
+29-03-2026T19:23:30 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Continue to Login Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Continue to Login"), 30): Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login'
+
+29-03-2026T19:23:30 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Continue to Login Button'
+
+29-03-2026T19:23:30 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 30
+
+29-03-2026T19:23:32 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login' is present
+
+29-03-2026T19:23:32 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:23:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login'
+
+29-03-2026T19:23:35 - [TEST_STEP][PASSED] - logInfo("STEP 2: Enter Member Number"): STEP 2: Enter Member Number
+
+29-03-2026T19:23:35 - [MESSAGE][INFO] - STEP 2: Enter Member Number
+
+29-03-2026T19:23:35 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Enter User ID", findTestObject("Object Repository/Android/01-Login/android.widget.member_number"), loginUsername): Keyboard is hidden
+
+29-03-2026T19:23:35 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter User ID' with value '0001'
+
+29-03-2026T19:23:35 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:23:36 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.member_number' is present
+
+29-03-2026T19:23:36 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:23:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.member_number'
+
+29-03-2026T19:23:39 - [MESSAGE][PASSED] - Send keys '0001' on test object 'Object Repository/Android/01-Login/android.widget.member_number' successfully.
+
+29-03-2026T19:23:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:23:42 - [TEST_STEP][PASSED] - logInfo("STEP 3: Enter Password"): STEP 3: Enter Password
+
+29-03-2026T19:23:42 - [MESSAGE][INFO] - STEP 3: Enter Password
+
+29-03-2026T19:23:42 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Enter Password", findTestObject("Object Repository/Android/01-Login/android.widget.member_password"), loginPassword): Keyboard is hidden
+
+29-03-2026T19:23:42 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter Password' with value '123456'
+
+29-03-2026T19:23:42 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:23:43 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.member_password' is present
+
+29-03-2026T19:23:43 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:23:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.member_password'
+
+29-03-2026T19:23:46 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Android/01-Login/android.widget.member_password' successfully.
+
+29-03-2026T19:23:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:23:49 - [TEST_STEP][PASSED] - logInfo("STEP 4: Tap "Sign In""): STEP 4: Tap "Sign In"
+
+29-03-2026T19:23:49 - [MESSAGE][INFO] - STEP 4: Tap "Sign In"
+
+29-03-2026T19:23:49 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Signin Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Sign In")): Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Sign In'
+
+29-03-2026T19:23:49 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Signin Button'
+
+29-03-2026T19:23:49 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:23:50 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.Button - Sign In' is present
+
+29-03-2026T19:23:50 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:23:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Sign In'
+
+29-03-2026T19:23:52 - [TEST_STEP][PASSED] - logInfo(STEP 5: Handle permission popups if autoGrantPermissions = $GlobalVariable.autoGrantPermissions): STEP 5: Handle permission popups if autoGrantPermissions = true
+
+29-03-2026T19:23:52 - [MESSAGE][INFO] - STEP 5: Handle permission popups if autoGrantPermissions = true
+
+29-03-2026T19:23:52 - [TEST_STEP][PASSED] - if (autoGrantPermissions == false): null
+
+29-03-2026T19:23:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:23:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:23:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:23:57 - [TEST_STEP][PASSED] - logInfo("STEP 1: Tap Dock Menu button"): STEP 1: Tap Dock Menu button
+
+29-03-2026T19:23:57 - [MESSAGE][INFO] - STEP 1: Tap Dock Menu button
+
+29-03-2026T19:23:57 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Dock Menu Button", findTestObject("Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button"), 60): Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button'
+
+29-03-2026T19:23:57 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Dock Menu Button'
+
+29-03-2026T19:23:57 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:24:11 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button' is present
+
+29-03-2026T19:24:11 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:24:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button'
+
+29-03-2026T19:24:15 - [TEST_STEP][PASSED] - logInfo("STEP 2: Wait for Dock Menu to load"): STEP 2: Wait for Dock Menu to load
+
+29-03-2026T19:24:15 - [MESSAGE][INFO] - STEP 2: Wait for Dock Menu to load
+
+29-03-2026T19:24:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:24:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:24:20 - [TEST_STEP][PASSED] - logInfo("STEP 3: Tap Menu Search Field"): STEP 3: Tap Menu Search Field
+
+29-03-2026T19:24:20 - [MESSAGE][INFO] - STEP 3: Tap Menu Search Field
+
+29-03-2026T19:24:20 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Tap Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), 60): Keyboard is hidden
+
+29-03-2026T19:24:20 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap Menu Search Field'
+
+29-03-2026T19:24:20 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:24:21 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' is present
+
+29-03-2026T19:24:21 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:24:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field'
+
+29-03-2026T19:24:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:24:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:24:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:24:32 - [TEST_STEP][PASSED] - logInfo("STEP 4: Type "Events Catalogue" into Menu Search Field"): STEP 4: Type "Events Catalogue" into Menu Search Field
+
+29-03-2026T19:24:32 - [MESSAGE][INFO] - STEP 4: Type "Events Catalogue" into Menu Search Field
+
+29-03-2026T19:24:32 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Type into Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), "Events Catalogue", 10): Keyboard is hidden
+
+29-03-2026T19:24:32 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Type into Menu Search Field' with value 'Events Catalogue'
+
+29-03-2026T19:24:32 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:24:33 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' is present
+
+29-03-2026T19:24:33 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:24:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field'
+
+29-03-2026T19:24:36 - [MESSAGE][PASSED] - Send keys 'Events Catalogue' on test object 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' successfully.
+
+29-03-2026T19:24:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:24:39 - [TEST_STEP][PASSED] - logInfo("STEP 5: Hide keyboard (if displayed)"): STEP 5: Hide keyboard (if displayed)
+
+29-03-2026T19:24:39 - [MESSAGE][INFO] - STEP 5: Hide keyboard (if displayed)
+
+29-03-2026T19:24:39 - [TEST_STEP][PASSED] - hideKeyboard(): null
+
+29-03-2026T19:24:39 - [TEST_STEP][PASSED] - logInfo("STEP 6: Tap "Events Catalogue" menu item"): STEP 6: Tap "Events Catalogue" menu item
+
+29-03-2026T19:24:39 - [MESSAGE][INFO] - STEP 6: Tap "Events Catalogue" menu item
+
+29-03-2026T19:24:39 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Events Catalogue Element", findTestObject("Android/02-Dock Menu/android.widget.Button - Events Catalogue"), 10): Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue'
+
+29-03-2026T19:24:39 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Events Catalogue Element'
+
+29-03-2026T19:24:39 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:24:40 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue' is present
+
+29-03-2026T19:24:40 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:24:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue'
+
+29-03-2026T19:24:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+29-03-2026T19:24:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+29-03-2026T19:24:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:24:53 - [TEST_STEP][PASSED] - reservationID = "Reservation-SMC-28257": null
+
+29-03-2026T19:24:53 - [TEST_STEP][PASSED] - comment(STEP 1: Search and open event/reservation '$reservationID'): STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+
+29-03-2026T19:24:53 - [MESSAGE][INFO] - STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+
+29-03-2026T19:24:53 - [TEST_STEP][PASSED] - logInfo(STEP 1: Search and open event/reservation '$reservationID'): STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+
+29-03-2026T19:24:53 - [MESSAGE][INFO] - STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+
+29-03-2026T19:24:53 - [TEST_STEP][PASSED] - AndroidOnly.selectDesiredReservation(reservationID): Delayed 5 second(s)
+
+29-03-2026T19:24:53 - [MESSAGE][INFO] - STEP 1: Tap magnifying glass to open Event search
+
+29-03-2026T19:24:53 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Magnifying Glass Button'
+
+29-03-2026T19:24:53 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:24:54 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.Button - magnifying glass' is present
+
+29-03-2026T19:24:54 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:24:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.Button - magnifying glass'
+
+29-03-2026T19:24:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:24:58 - [MESSAGE][INFO] - STEP 2: Tap Search Events input field
+
+29-03-2026T19:24:58 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap Search Events Field'
+
+29-03-2026T19:24:58 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:24:59 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' is present
+
+29-03-2026T19:24:59 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:25:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List'
+
+29-03-2026T19:25:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:25:04 - [MESSAGE][INFO] - STEP 3: Enter search text: Reservation-SMC-28257
+
+29-03-2026T19:25:04 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Populate Search Event Field' with value 'Reservation-SMC-28257'
+
+29-03-2026T19:25:04 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:25:05 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' is present
+
+29-03-2026T19:25:05 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:25:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List'
+
+29-03-2026T19:25:08 - [MESSAGE][PASSED] - Send keys 'Reservation-SMC-28257' on test object 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' successfully.
+
+29-03-2026T19:25:08 - [MESSAGE][INFO] - STEP 5: Select event from results: Reservation-SMC-28257
+
+29-03-2026T19:25:08 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap First Event'
+
+29-03-2026T19:25:08 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:25:10 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.button - Click Reservation Search Result' is present
+
+29-03-2026T19:25:10 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:25:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.button - Click Reservation Search Result'
+
+29-03-2026T19:25:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:25:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:25:17 - [TEST_STEP][PASSED] - comment("STEP 2: Verify Event Number is displayed"): STEP 2: Verify Event Number is displayed
+
+29-03-2026T19:25:17 - [MESSAGE][INFO] - STEP 2: Verify Event Number is displayed
+
+29-03-2026T19:25:17 - [TEST_STEP][PASSED] - logInfo("STEP 2: Verify Event Number is displayed"): STEP 2: Verify Event Number is displayed
+
+29-03-2026T19:25:17 - [MESSAGE][INFO] - STEP 2: Verify Event Number is displayed
+
+29-03-2026T19:25:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Number"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Number' is exist
+
+29-03-2026T19:25:18 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Number' is exist
+
+29-03-2026T19:25:18 - [TEST_STEP][PASSED] - comment("STEP 3: Verify Participant Count is displayed"): STEP 3: Verify Participant Count is displayed
+
+29-03-2026T19:25:18 - [MESSAGE][INFO] - STEP 3: Verify Participant Count is displayed
+
+29-03-2026T19:25:18 - [TEST_STEP][PASSED] - logInfo("STEP 3: Verify Participant Count is displayed"): STEP 3: Verify Participant Count is displayed
+
+29-03-2026T19:25:18 - [MESSAGE][INFO] - STEP 3: Verify Participant Count is displayed
+
+29-03-2026T19:25:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Participant Count"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Participant Count' is exist
+
+29-03-2026T19:25:20 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Participant Count' is exist
+
+29-03-2026T19:25:20 - [TEST_STEP][PASSED] - comment("STEP 4: Verify Event Status is displayed"): STEP 4: Verify Event Status is displayed
+
+29-03-2026T19:25:20 - [MESSAGE][INFO] - STEP 4: Verify Event Status is displayed
+
+29-03-2026T19:25:20 - [TEST_STEP][PASSED] - logInfo("STEP 4: Verify Event Status is displayed"): STEP 4: Verify Event Status is displayed
+
+29-03-2026T19:25:20 - [MESSAGE][INFO] - STEP 4: Verify Event Status is displayed
+
+29-03-2026T19:25:20 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Status"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Status' is exist
+
+29-03-2026T19:25:21 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Status' is exist
+
+29-03-2026T19:25:21 - [TEST_STEP][PASSED] - comment("STEP 5: Verify Event Date is displayed"): STEP 5: Verify Event Date is displayed
+
+29-03-2026T19:25:21 - [MESSAGE][INFO] - STEP 5: Verify Event Date is displayed
+
+29-03-2026T19:25:21 - [TEST_STEP][PASSED] - logInfo("STEP 5: Verify Event Date is displayed"): STEP 5: Verify Event Date is displayed
+
+29-03-2026T19:25:21 - [MESSAGE][INFO] - STEP 5: Verify Event Date is displayed
+
+29-03-2026T19:25:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Date"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Date' is exist
+
+29-03-2026T19:25:22 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Date' is exist
+
+29-03-2026T19:25:22 - [TEST_STEP][PASSED] - comment("STEP 6: Verify View details button is displayed"): STEP 6: Verify View details button is displayed
+
+29-03-2026T19:25:22 - [MESSAGE][INFO] - STEP 6: Verify View details button is displayed
+
+29-03-2026T19:25:22 - [TEST_STEP][PASSED] - logInfo("STEP 6: Verify View details button is displayed"): STEP 6: Verify View details button is displayed
+
+29-03-2026T19:25:22 - [MESSAGE][INFO] - STEP 6: Verify View details button is displayed
+
+29-03-2026T19:25:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details' is exist
+
+29-03-2026T19:25:23 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details' is exist
+
+29-03-2026T19:25:23 - [TEST_STEP][PASSED] - comment("STEP 7: Verify Event Time is displayed"): STEP 7: Verify Event Time is displayed
+
+29-03-2026T19:25:23 - [MESSAGE][INFO] - STEP 7: Verify Event Time is displayed
+
+29-03-2026T19:25:23 - [TEST_STEP][PASSED] - logInfo("STEP 7: Verify Event Time is displayed"): STEP 7: Verify Event Time is displayed
+
+29-03-2026T19:25:23 - [MESSAGE][INFO] - STEP 7: Verify Event Time is displayed
+
+29-03-2026T19:25:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Time"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Time' is exist
+
+29-03-2026T19:25:24 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Time' is exist
+
+29-03-2026T19:25:24 - [TEST_STEP][PASSED] - comment("STEP 8: Verify Event Location is displayed"): STEP 8: Verify Event Location is displayed
+
+29-03-2026T19:25:24 - [MESSAGE][INFO] - STEP 8: Verify Event Location is displayed
+
+29-03-2026T19:25:24 - [TEST_STEP][PASSED] - logInfo("STEP 8: Verify Event Location is displayed"): STEP 8: Verify Event Location is displayed
+
+29-03-2026T19:25:24 - [MESSAGE][INFO] - STEP 8: Verify Event Location is displayed
+
+29-03-2026T19:25:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Location"), 10, CONTINUE_ON_FAILURE): Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Location' is exist
+
+29-03-2026T19:25:26 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Location' is exist
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - comment("END: Open Event SMC-28257 validations completed"): END: Open Event SMC-28257 validations completed
+
+29-03-2026T19:25:26 - [MESSAGE][INFO] - END: Open Event SMC-28257 validations completed
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - logInfo("END: Open Event SMC-28257 validations completed"): END: Open Event SMC-28257 validations completed
+
+29-03-2026T19:25:26 - [MESSAGE][INFO] - END: Open Event SMC-28257 validations completed
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST CASE: $testCaseContext.getTestCaseId() | status=$testCaseContext.getTestCaseStatus()): [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=PASSED
+
+29-03-2026T19:25:26 - [MESSAGE][INFO] - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=PASSED
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - logInfo("[Listener][OPTIONAL] Closing application after test case"): [Listener][OPTIONAL] Closing application after test case
+
+29-03-2026T19:25:26 - [MESSAGE][INFO] - [Listener][OPTIONAL] Closing application after test case
+
+29-03-2026T19:25:26 - [TEST_STEP][PASSED] - closeApplication(OPTIONAL): Close app successfully
+
+29-03-2026T19:25:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/03-Events/Open and Validate Event SMC-30950" time="327.372" classname="Test Cases/Android/03-Events/Open and Validate Event SMC-30950" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to tap element Edit Days Item after 3 attempts&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy:108)&#xa;	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy)&#xa;	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:87)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-03-2026T19:33:13 - [TEST_CASE][FAILED] - Test Cases/Android/03-Events/Open and Validate Event SMC-30950: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap element Edit Days Item after 3 attempts
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy:108)
+	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - comment("TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed"): TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"): STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - if (!(applicationrunning)): Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)"): STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow)."): STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:33:13 - [TEST_CASE][PASSED] - Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue: Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)"): STEP 0: Verify Dock Menu is visible (used as login indicator)
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0: Verify Dock Menu is visible (used as login indicator)
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - applicationrunning = CommonFunctions.isApplicationRunning(): [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions] Device Check 
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - if (!(applicationrunning)): Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - logInfo(" Application instance not found. Executing Login Member test case"):  Application instance not found. Executing Login Member test case
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] -  Application instance not found. Executing Login Member test case
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:33:13 - [TEST_CASE][PASSED] - Test Cases/Android/01-Login/Login Member: Test Cases/Android/01-Login/Login Member
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - logInfo("STEP 0: Set Android driver preferences (platform-specific)"): STEP 0: Set Android driver preferences (platform-specific)
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - STEP 0: Set Android driver preferences (platform-specific)
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - AndroidOnly.setDriverPreferences_Android(): Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+
+29-03-2026T19:33:13 - [TEST_STEP][PASSED] - startApplication(appPath, true): Started application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - Overriding application: 'D:\APK\ClubNow-Android.apk' by '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - Override application info: '{"id":"7f6739f8-16fa-4e6f-8df2-03064494749e","organizationId":"3288056","name":"ClubNow 3.0","platform":"ANDROID","status":"READY","size":25370953,"storagePath":"be88be85-0c36-420a-a26c-9312ec50a6f2","uploadedDate":"2026-03-25T15:10:15.620697","createdDate":"2026-03-25T15:10:15.620697","updatedDate":"2026-03-25T15:10:19.088786","fileName":"CN30.apk","metadata":{"identifier":"com.sibisoft.clubnowautomation","name":"ClubNow 3.0","version":"1.0.1"}}'
+
+29-03-2026T19:33:13 - [MESSAGE][INFO] - Starting application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:33:28 - [MESSAGE][WARNING] - Unable to get appium status. Root cause (com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 10 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json)
+
+29-03-2026T19:33:29 - [MESSAGE][PASSED] - Started application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+
+29-03-2026T19:33:29 - [TEST_STEP][PASSED] - delay(25): Delayed 25 second(s)
+
+29-03-2026T19:33:54 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+29-03-2026T19:33:54 - [TEST_STEP][PASSED] - logInfo("STEP 1: Tap "Continue to Login""): STEP 1: Tap "Continue to Login"
+
+29-03-2026T19:33:54 - [MESSAGE][INFO] - STEP 1: Tap "Continue to Login"
+
+29-03-2026T19:33:54 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Continue to Login Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Continue to Login"), 30): Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login'
+
+29-03-2026T19:33:54 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Continue to Login Button'
+
+29-03-2026T19:33:54 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 30
+
+29-03-2026T19:33:56 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login' is present
+
+29-03-2026T19:33:56 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:33:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Continue to Login'
+
+29-03-2026T19:34:00 - [TEST_STEP][PASSED] - logInfo("STEP 2: Enter Member Number"): STEP 2: Enter Member Number
+
+29-03-2026T19:34:00 - [MESSAGE][INFO] - STEP 2: Enter Member Number
+
+29-03-2026T19:34:00 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Enter User ID", findTestObject("Object Repository/Android/01-Login/android.widget.member_number"), loginUsername): Keyboard is hidden
+
+29-03-2026T19:34:00 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter User ID' with value '0001'
+
+29-03-2026T19:34:00 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:34:01 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.member_number' is present
+
+29-03-2026T19:34:01 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:34:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.member_number'
+
+29-03-2026T19:34:04 - [MESSAGE][PASSED] - Send keys '0001' on test object 'Object Repository/Android/01-Login/android.widget.member_number' successfully.
+
+29-03-2026T19:34:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:34:07 - [TEST_STEP][PASSED] - logInfo("STEP 3: Enter Password"): STEP 3: Enter Password
+
+29-03-2026T19:34:07 - [MESSAGE][INFO] - STEP 3: Enter Password
+
+29-03-2026T19:34:07 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Enter Password", findTestObject("Object Repository/Android/01-Login/android.widget.member_password"), loginPassword): Keyboard is hidden
+
+29-03-2026T19:34:07 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter Password' with value '123456'
+
+29-03-2026T19:34:07 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:34:08 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.member_password' is present
+
+29-03-2026T19:34:08 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:34:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.member_password'
+
+29-03-2026T19:34:11 - [MESSAGE][PASSED] - Send keys '123456' on test object 'Object Repository/Android/01-Login/android.widget.member_password' successfully.
+
+29-03-2026T19:34:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:34:14 - [TEST_STEP][PASSED] - logInfo("STEP 4: Tap "Sign In""): STEP 4: Tap "Sign In"
+
+29-03-2026T19:34:14 - [MESSAGE][INFO] - STEP 4: Tap "Sign In"
+
+29-03-2026T19:34:14 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Signin Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Sign In")): Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Sign In'
+
+29-03-2026T19:34:14 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Signin Button'
+
+29-03-2026T19:34:14 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:34:15 - [MESSAGE][PASSED] - Element 'Object Repository/Android/01-Login/android.widget.Button - Sign In' is present
+
+29-03-2026T19:34:15 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:34:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/01-Login/android.widget.Button - Sign In'
+
+29-03-2026T19:34:17 - [TEST_STEP][PASSED] - logInfo(STEP 5: Handle permission popups if autoGrantPermissions = $GlobalVariable.autoGrantPermissions): STEP 5: Handle permission popups if autoGrantPermissions = true
+
+29-03-2026T19:34:17 - [MESSAGE][INFO] - STEP 5: Handle permission popups if autoGrantPermissions = true
+
+29-03-2026T19:34:17 - [TEST_STEP][PASSED] - if (autoGrantPermissions == false): null
+
+29-03-2026T19:34:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:34:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:34:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/01-Login/Login Member' successfully
+
+29-03-2026T19:34:22 - [TEST_STEP][PASSED] - logInfo("STEP 1: Tap Dock Menu button"): STEP 1: Tap Dock Menu button
+
+29-03-2026T19:34:22 - [MESSAGE][INFO] - STEP 1: Tap Dock Menu button
+
+29-03-2026T19:34:22 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Dock Menu Button", findTestObject("Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button"), 60): Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button'
+
+29-03-2026T19:34:22 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Dock Menu Button'
+
+29-03-2026T19:34:22 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:34:30 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button' is present
+
+29-03-2026T19:34:30 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:34:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button'
+
+29-03-2026T19:34:33 - [TEST_STEP][PASSED] - logInfo("STEP 2: Wait for Dock Menu to load"): STEP 2: Wait for Dock Menu to load
+
+29-03-2026T19:34:33 - [MESSAGE][INFO] - STEP 2: Wait for Dock Menu to load
+
+29-03-2026T19:34:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:34:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:34:38 - [TEST_STEP][PASSED] - logInfo("STEP 3: Tap Menu Search Field"): STEP 3: Tap Menu Search Field
+
+29-03-2026T19:34:38 - [MESSAGE][INFO] - STEP 3: Tap Menu Search Field
+
+29-03-2026T19:34:38 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Tap Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), 60): Keyboard is hidden
+
+29-03-2026T19:34:38 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap Menu Search Field'
+
+29-03-2026T19:34:38 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:34:39 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' is present
+
+29-03-2026T19:34:39 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:34:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field'
+
+29-03-2026T19:34:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:34:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-03-2026T19:34:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:34:49 - [TEST_STEP][PASSED] - logInfo("STEP 4: Type "Events Catalogue" into Menu Search Field"): STEP 4: Type "Events Catalogue" into Menu Search Field
+
+29-03-2026T19:34:49 - [MESSAGE][INFO] - STEP 4: Type "Events Catalogue" into Menu Search Field
+
+29-03-2026T19:34:49 - [TEST_STEP][PASSED] - CommonFunctions.safeSendKeys("Type into Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), "Events Catalogue", 10): Keyboard is hidden
+
+29-03-2026T19:34:49 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Type into Menu Search Field' with value 'Events Catalogue'
+
+29-03-2026T19:34:49 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:34:50 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' is present
+
+29-03-2026T19:34:50 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:34:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field'
+
+29-03-2026T19:34:54 - [MESSAGE][PASSED] - Send keys 'Events Catalogue' on test object 'Object Repository/Android/02-Dock Menu/android.widget.EditText  - Menu Search Field' successfully.
+
+29-03-2026T19:34:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:34:57 - [TEST_STEP][PASSED] - logInfo("STEP 5: Hide keyboard (if displayed)"): STEP 5: Hide keyboard (if displayed)
+
+29-03-2026T19:34:57 - [MESSAGE][INFO] - STEP 5: Hide keyboard (if displayed)
+
+29-03-2026T19:34:57 - [TEST_STEP][PASSED] - hideKeyboard(): null
+
+29-03-2026T19:34:57 - [TEST_STEP][PASSED] - logInfo("STEP 6: Tap "Events Catalogue" menu item"): STEP 6: Tap "Events Catalogue" menu item
+
+29-03-2026T19:34:57 - [MESSAGE][INFO] - STEP 6: Tap "Events Catalogue" menu item
+
+29-03-2026T19:34:57 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Events Catalogue Element", findTestObject("Android/02-Dock Menu/android.widget.Button - Events Catalogue"), 10): Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue'
+
+29-03-2026T19:34:57 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Events Catalogue Element'
+
+29-03-2026T19:34:57 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:34:58 - [MESSAGE][PASSED] - Element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue' is present
+
+29-03-2026T19:34:58 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:35:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/02-Dock Menu/android.widget.Button - Events Catalogue'
+
+29-03-2026T19:35:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+29-03-2026T19:35:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+29-03-2026T19:35:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue' successfully
+
+29-03-2026T19:35:10 - [TEST_STEP][PASSED] - reservationID = "Reservation-SMC-30950": null
+
+29-03-2026T19:35:10 - [TEST_STEP][PASSED] - comment(STEP 1: Search and open event/reservation '$reservationID'): STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+
+29-03-2026T19:35:10 - [MESSAGE][INFO] - STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+
+29-03-2026T19:35:10 - [TEST_STEP][PASSED] - logInfo(STEP 1: Search and open event/reservation '$reservationID'): STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+
+29-03-2026T19:35:10 - [MESSAGE][INFO] - STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+
+29-03-2026T19:35:10 - [TEST_STEP][PASSED] - AndroidOnly.selectDesiredReservation(reservationID): Delayed 5 second(s)
+
+29-03-2026T19:35:10 - [MESSAGE][INFO] - STEP 1: Tap magnifying glass to open Event search
+
+29-03-2026T19:35:10 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Magnifying Glass Button'
+
+29-03-2026T19:35:10 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:35:11 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.Button - magnifying glass' is present
+
+29-03-2026T19:35:11 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:35:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.Button - magnifying glass'
+
+29-03-2026T19:35:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:35:16 - [MESSAGE][INFO] - STEP 2: Tap Search Events input field
+
+29-03-2026T19:35:16 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap Search Events Field'
+
+29-03-2026T19:35:16 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:35:17 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' is present
+
+29-03-2026T19:35:17 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List'
+
+29-03-2026T19:35:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:35:21 - [MESSAGE][INFO] - STEP 3: Enter search text: Reservation-SMC-30950
+
+29-03-2026T19:35:21 - [MESSAGE][INFO] - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Populate Search Event Field' with value 'Reservation-SMC-30950'
+
+29-03-2026T19:35:21 - [MESSAGE][INFO] - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:35:22 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' is present
+
+29-03-2026T19:35:22 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap and send keys
+
+29-03-2026T19:35:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List'
+
+29-03-2026T19:35:25 - [MESSAGE][PASSED] - Send keys 'Reservation-SMC-30950' on test object 'Object Repository/Android/03-Events Catalogue/android.widget.EditText - Search Events List' successfully.
+
+29-03-2026T19:35:25 - [MESSAGE][INFO] - STEP 5: Select event from results: Reservation-SMC-30950
+
+29-03-2026T19:35:25 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Tap First Event'
+
+29-03-2026T19:35:25 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 10
+
+29-03-2026T19:35:27 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/android.widget.button - Click Reservation Search Result' is present
+
+29-03-2026T19:35:27 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/android.widget.button - Click Reservation Search Result'
+
+29-03-2026T19:35:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+29-03-2026T19:35:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-03-2026T19:35:34 - [TEST_STEP][PASSED] - comment("STEP 2: Tap Choose Days & Times"): STEP 2: Tap Choose Days & Times
+
+29-03-2026T19:35:34 - [MESSAGE][INFO] - STEP 2: Tap Choose Days & Times
+
+29-03-2026T19:35:34 - [TEST_STEP][PASSED] - logInfo("STEP 2: Tap Choose Days & Times"): STEP 2: Tap Choose Days & Times
+
+29-03-2026T19:35:34 - [MESSAGE][INFO] - STEP 2: Tap Choose Days & Times
+
+29-03-2026T19:35:34 - [TEST_STEP][PASSED] - CommonFunctions.safeTap("Choose Days and Times Button", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times"), 60): Tapped on element 'Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times'
+
+29-03-2026T19:35:34 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Choose Days and Times Button'
+
+29-03-2026T19:35:34 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:35:36 - [MESSAGE][PASSED] - Element 'Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times' is present
+
+29-03-2026T19:35:36 - [MESSAGE][INFO] - Element found on attempt 1, proceeding to tap
+
+29-03-2026T19:35:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times'
+
+29-03-2026T19:35:38 - [TEST_STEP][PASSED] - comment("STEP 3: Tap Edit Days"): STEP 3: Tap Edit Days
+
+29-03-2026T19:35:38 - [MESSAGE][INFO] - STEP 3: Tap Edit Days
+
+29-03-2026T19:35:38 - [TEST_STEP][PASSED] - logInfo("STEP 3: Tap Edit Days"): STEP 3: Tap Edit Days
+
+29-03-2026T19:35:38 - [MESSAGE][INFO] - STEP 3: Tap Edit Days
+
+29-03-2026T19:35:38 - [TEST_STEP][FAILED] - CommonFunctions.safeTap("Edit Days Item", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days"), 60): Failed to tap element Edit Days Item after 3 attempts
+
+29-03-2026T19:35:38 - [MESSAGE][INFO] - [CommonFunctions][safeTap] Attempting to tap element 'Edit Days Item'
+
+29-03-2026T19:35:38 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 1, object timeout: 60
+
+29-03-2026T19:36:39 - [MESSAGE][WARNING] - Object Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days not found
+
+29-03-2026T19:36:39 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 2, object timeout: 60
+
+29-03-2026T19:37:39 - [MESSAGE][WARNING] - Object Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days not found
+
+29-03-2026T19:37:39 - [MESSAGE][INFO] - In safeTap retry loop, iteration: 3, object timeout: 60
+
+29-03-2026T19:38:40 - [MESSAGE][WARNING] - Object Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days not found
+
+29-03-2026T19:38:40 - [MESSAGE][FAILED] - Failed to tap element Edit Days Item after 3 attempts
+
+29-03-2026T19:38:40 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+29-03-2026T19:38:40 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST CASE: $testCaseContext.getTestCaseId() | status=$testCaseContext.getTestCaseStatus()): [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=FAILED
+
+29-03-2026T19:38:40 - [MESSAGE][INFO] - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=FAILED
+
+29-03-2026T19:38:40 - [TEST_STEP][PASSED] - logInfo("[Listener][OPTIONAL] Closing application after test case"): [Listener][OPTIONAL] Closing application after test case
+
+29-03-2026T19:38:40 - [MESSAGE][INFO] - [Listener][OPTIONAL] Closing application after test case
+
+29-03-2026T19:38:40 - [TEST_STEP][PASSED] - closeApplication(OPTIONAL): Close app successfully
+
+29-03-2026T19:38:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[29-03-2026T19:33:13 - [TEST_CASE][FAILED] - Test Cases/Android/03-Events/Open and Validate Event SMC-30950: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap element Edit Days Item after 3 attempts
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy:108)
+	at com.common.actions.CommonFunctions.safeTap(CommonFunctions.groovy)
+	at Open and Validate Event SMC-30950.run(Open and Validate Event SMC-30950:87)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-03-2026T19:20:09 - [TEST_SUITE][FAILED] - Northstar Validation TS 1: null
+
+29-03-2026T19:38:41 - [TEST_STEP][PASSED] - Start listener action : afterTestSuite: Unable to close app (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:96)
+	at CloseMobileApplication.afterTestSuite(CloseMobileApplication.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.executeListenerAfterTestSuite(TestSuiteExecutor.java:126)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:114)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+
+29-03-2026T19:38:41 - [TEST_STEP][PASSED] - logInfo([Listener] AFTER TEST SUITE: $testSuiteContext.getTestSuiteId()): [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1
+
+29-03-2026T19:38:41 - [MESSAGE][INFO] - [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1
+
+29-03-2026T19:38:41 - [TEST_STEP][PASSED] - logInfo("[Listener][OPTIONAL] Closing application after test suite"): [Listener][OPTIONAL] Closing application after test suite
+
+29-03-2026T19:38:41 - [MESSAGE][INFO] - [Listener][OPTIONAL] Closing application after test suite
+
+29-03-2026T19:38:41 - [TEST_STEP][WARNING] - closeApplication(OPTIONAL): Unable to close app (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:96)
+	at CloseMobileApplication.afterTestSuite(CloseMobileApplication.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.executeListenerAfterTestSuite(TestSuiteExecutor.java:126)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:114)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+
+29-03-2026T19:38:41 - [MESSAGE][WARNING] - Unable to close app (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:96)
+	at CloseMobileApplication.afterTestSuite(CloseMobileApplication.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.executeListenerAfterTestSuite(TestSuiteExecutor.java:126)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:114)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774826408327.run(TempTestSuite1774826408327.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)]]></system-out>
+      <system-err><![CDATA[29-03-2026T19:20:09 - [TEST_SUITE][FAILED] - Northstar Validation TS 1: null]]></system-err>
+   </testsuite>
+</testsuites>

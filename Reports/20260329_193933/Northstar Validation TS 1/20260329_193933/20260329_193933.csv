@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Northstar Validation TS 1,,,,29-03-2026 19:39:35,29-03-2026 19:45:30,5m - 54.506s,PASSED
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-28257,,,GenAI,29-03-2026 19:39:35,29-03-2026 19:42:26,2m - 50.526s,PASSED
+"comment(""TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 19:39:36,29-03-2026 19:39:36,0.019s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 19:39:36,29-03-2026 19:39:36,0.002s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 19:39:36,29-03-2026 19:39:36,0.002s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 19:39:36,29-03-2026 19:39:36,0.025s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 19:39:36,29-03-2026 19:41:50,2m - 13.953s,PASSED
+"reservationID = ""Reservation-SMC-28257""",,,,29-03-2026 19:41:50,29-03-2026 19:41:50,0.001s,PASSED
+comment(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 19:41:50,29-03-2026 19:41:50,0.004s,PASSED
+logInfo(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 19:41:50,29-03-2026 19:41:50,0.001s,PASSED
+AndroidOnly.selectDesiredReservation(reservationID),,,,29-03-2026 19:41:50,29-03-2026 19:42:16,26.558s,PASSED
+"comment(""STEP 2: Verify Event Number is displayed"")",,,,29-03-2026 19:42:16,29-03-2026 19:42:16,0.004s,PASSED
+"logInfo(""STEP 2: Verify Event Number is displayed"")",,,,29-03-2026 19:42:16,29-03-2026 19:42:16,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Number""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:16,29-03-2026 19:42:17,1.330s,PASSED
+"comment(""STEP 3: Verify Participant Count is displayed"")",,,,29-03-2026 19:42:17,29-03-2026 19:42:17,0.004s,PASSED
+"logInfo(""STEP 3: Verify Participant Count is displayed"")",,,,29-03-2026 19:42:17,29-03-2026 19:42:17,0.002s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Participant Count""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:17,29-03-2026 19:42:19,1.209s,PASSED
+"comment(""STEP 4: Verify Event Status is displayed"")",,,,29-03-2026 19:42:19,29-03-2026 19:42:19,0.003s,PASSED
+"logInfo(""STEP 4: Verify Event Status is displayed"")",,,,29-03-2026 19:42:19,29-03-2026 19:42:19,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Status""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:19,29-03-2026 19:42:20,1.239s,PASSED
+"comment(""STEP 5: Verify Event Date is displayed"")",,,,29-03-2026 19:42:20,29-03-2026 19:42:20,0.003s,PASSED
+"logInfo(""STEP 5: Verify Event Date is displayed"")",,,,29-03-2026 19:42:20,29-03-2026 19:42:20,0.002s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Date""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:20,29-03-2026 19:42:21,1.218s,PASSED
+"comment(""STEP 6: Verify View details button is displayed"")",,,,29-03-2026 19:42:21,29-03-2026 19:42:21,0.004s,PASSED
+"logInfo(""STEP 6: Verify View details button is displayed"")",,,,29-03-2026 19:42:21,29-03-2026 19:42:21,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:21,29-03-2026 19:42:22,1.224s,PASSED
+"comment(""STEP 7: Verify Event Time is displayed"")",,,,29-03-2026 19:42:22,29-03-2026 19:42:22,0.003s,PASSED
+"logInfo(""STEP 7: Verify Event Time is displayed"")",,,,29-03-2026 19:42:22,29-03-2026 19:42:22,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Time""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:22,29-03-2026 19:42:24,1.222s,PASSED
+"comment(""STEP 8: Verify Event Location is displayed"")",,,,29-03-2026 19:42:24,29-03-2026 19:42:24,0.004s,PASSED
+"logInfo(""STEP 8: Verify Event Location is displayed"")",,,,29-03-2026 19:42:24,29-03-2026 19:42:24,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Location""), 10, CONTINUE_ON_FAILURE)",,,,29-03-2026 19:42:24,29-03-2026 19:42:25,1.224s,PASSED
+"comment(""END: Open Event SMC-28257 validations completed"")",,,,29-03-2026 19:42:25,29-03-2026 19:42:25,0.004s,PASSED
+"logInfo(""END: Open Event SMC-28257 validations completed"")",,,,29-03-2026 19:42:25,29-03-2026 19:42:25,0.001s,PASSED
+Start listener action : afterTestCase,,,,29-03-2026 19:42:25,29-03-2026 19:42:26,1.179s,PASSED
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-30950,,,,29-03-2026 19:42:26,29-03-2026 19:45:30,3m - 3.815s,PASSED
+"comment(""TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 19:42:26,29-03-2026 19:42:26,0.001s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 19:42:26,29-03-2026 19:42:26,0.000s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 19:42:26,29-03-2026 19:42:26,0.000s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 19:42:26,29-03-2026 19:42:26,0.001s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 19:42:26,29-03-2026 19:44:31,2m - 4.563s,PASSED
+"reservationID = ""Reservation-SMC-30950""",,,,29-03-2026 19:44:31,29-03-2026 19:44:31,0.001s,PASSED
+comment(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 19:44:31,29-03-2026 19:44:31,0.003s,PASSED
+logInfo(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 19:44:31,29-03-2026 19:44:31,0.002s,PASSED
+AndroidOnly.selectDesiredReservation(reservationID),,,,29-03-2026 19:44:31,29-03-2026 19:44:58,27.785s,PASSED
+"comment(""STEP 2: Tap Choose Days & Times"")",,,,29-03-2026 19:44:58,29-03-2026 19:44:58,0.002s,PASSED
+"logInfo(""STEP 2: Tap Choose Days & Times"")",,,,29-03-2026 19:44:58,29-03-2026 19:44:58,0.001s,PASSED
+"CommonFunctions.safeTap(""Choose Days and Times Button"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times""), 60)",,,,29-03-2026 19:44:58,29-03-2026 19:45:02,3.348s,PASSED
+"comment(""STEP 3: Tap Edit Days"")",,,,29-03-2026 19:45:02,29-03-2026 19:45:02,0.003s,PASSED
+"logInfo(""STEP 3: Tap Edit Days"")",,,,29-03-2026 19:45:02,29-03-2026 19:45:02,0.001s,PASSED
+"CommonFunctions.safeTap(""Edit Days Item"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days""), 60)",,,,29-03-2026 19:45:02,29-03-2026 19:45:05,3.137s,PASSED
+"comment(""STEP 4: Select desired time/session from dropdown"")",,,,29-03-2026 19:45:05,29-03-2026 19:45:05,0.003s,PASSED
+"logInfo(""STEP 4: Select desired time/session from dropdown"")",,,,29-03-2026 19:45:05,29-03-2026 19:45:05,0.001s,PASSED
+"CommonFunctions.safeTap(""Select Desired Time Dropdown"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.view.View - Select Desired Time""), 10)",,,,29-03-2026 19:45:05,29-03-2026 19:45:08,3.214s,PASSED
+"comment("""")",,,,29-03-2026 19:45:08,29-03-2026 19:45:08,0.003s,PASSED
+"comment(""STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable"")",,,,29-03-2026 19:45:08,29-03-2026 19:45:08,0.003s,PASSED
+"logInfo(""STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable"")",,,,29-03-2026 19:45:08,29-03-2026 19:45:08,0.001s,PASSED
+"if (verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Select All""), 20, CONTINUE_ON_FAILURE) == true)",,,,29-03-2026 19:45:08,29-03-2026 19:45:11,2.848s,PASSED
+"if (verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Clear Selection""), 20, CONTINUE_ON_FAILURE) == true)",,,,29-03-2026 19:45:11,29-03-2026 19:45:14,2.757s,PASSED
+"if (verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.CheckBox - Day Selection Checkbox""), 20, CONTINUE_ON_FAILURE) == true)",,,,29-03-2026 19:45:14,29-03-2026 19:45:16,2.606s,PASSED
+"comment(""STEP 6: Tap Confirm to apply day/time selection"")",,,,29-03-2026 19:45:16,29-03-2026 19:45:16,0.003s,PASSED
+"logInfo(""STEP 6: Tap Confirm to apply day/time selection"")",,,,29-03-2026 19:45:16,29-03-2026 19:45:16,0.001s,PASSED
+"CommonFunctions.safeTap(""Confirm Button"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Confirm""), 10)",,,,29-03-2026 19:45:16,29-03-2026 19:45:20,3.162s,PASSED
+"comment(""STEP 7: Select attendee = Myself"")",,,,29-03-2026 19:45:20,29-03-2026 19:45:20,0.004s,PASSED
+"logInfo(""STEP 7: Select attendee = Myself"")",,,,29-03-2026 19:45:20,29-03-2026 19:45:20,0.001s,PASSED
+"CommonFunctions.safeTap(""Myself Button"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Myself""), 20)",,,,29-03-2026 19:45:20,29-03-2026 19:45:23,3.252s,PASSED
+"comment(""STEP 8: Accept Waiver and Consent"")",,,,29-03-2026 19:45:23,29-03-2026 19:45:23,0.003s,PASSED
+"logInfo(""STEP 8: Accept Waiver and Consent"")",,,,29-03-2026 19:45:23,29-03-2026 19:45:23,0.001s,PASSED
+"CommonFunctions.safeTap(""Waiver and Consent Checkbox"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.checkbox - Waiver and Consent""), 10)",,,,29-03-2026 19:45:23,29-03-2026 19:45:26,3.208s,PASSED
+"comment(""STEP 9: Verify Create Reservation is clickable"")",,,,29-03-2026 19:45:26,29-03-2026 19:45:26,0.003s,PASSED
+"logInfo(""STEP 9: Verify Create Reservation is clickable"")",,,,29-03-2026 19:45:26,29-03-2026 19:45:26,0.001s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation""), 10)",,,,29-03-2026 19:45:26,29-03-2026 19:45:27,1.190s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation""), ""clickable"", ""true"", 10)",,,,29-03-2026 19:45:27,29-03-2026 19:45:29,1.395s,PASSED
+"comment(""END: Open Event SMC-30950 validations completed"")",,,,29-03-2026 19:45:29,29-03-2026 19:45:29,0.004s,PASSED
+"logInfo(""END: Open Event SMC-30950 validations completed"")",,,,29-03-2026 19:45:29,29-03-2026 19:45:29,0.000s,PASSED
+Start listener action : afterTestCase,,,,29-03-2026 19:45:29,29-03-2026 19:45:30,1.231s,PASSED
+,,,,,,,
+Start listener action : afterTestSuite,,,,29-03-2026 19:45:30,29-03-2026 19:45:30,0.031s,PASSED

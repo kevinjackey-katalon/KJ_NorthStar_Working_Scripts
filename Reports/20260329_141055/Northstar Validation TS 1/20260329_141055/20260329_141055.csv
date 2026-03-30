@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Northstar Validation TS 1,,,,29-03-2026 14:10:57,29-03-2026 14:22:12,11m - 15.119s,FAILED
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-28257,,,GenAI,29-03-2026 14:10:57,29-03-2026 14:16:56,5m - 58.089s,FAILED
+"comment(""TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 14:10:58,29-03-2026 14:10:58,0.018s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 14:10:58,29-03-2026 14:10:58,0.002s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 14:10:58,29-03-2026 14:10:58,0.002s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 14:10:58,29-03-2026 14:10:58,0.025s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 14:10:58,29-03-2026 14:16:54,5m - 56.718s,FAILED
+Start listener action : afterTestCase,,,,29-03-2026 14:16:54,29-03-2026 14:16:56,1.244s,PASSED
+,,,,,,,
+Test Cases/Android/03-Events/Open and Validate Event SMC-30950,,,,29-03-2026 14:16:56,29-03-2026 14:22:12,5m - 16.855s,FAILED
+"comment(""TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed"")",,,,29-03-2026 14:16:56,29-03-2026 14:16:56,0.001s,PASSED
+"comment(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 14:16:56,29-03-2026 14:16:56,0.001s,PASSED
+"logInfo(""STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)"")",,,,29-03-2026 14:16:56,29-03-2026 14:16:56,0.000s,PASSED
+applicationrunning = CommonFunctions.isApplicationRunning(),,,,29-03-2026 14:16:56,29-03-2026 14:16:56,0.002s,PASSED
+if (!(applicationrunning)),,,,29-03-2026 14:16:56,29-03-2026 14:18:46,1m - 50.449s,PASSED
+"reservationID = ""Reservation-SMC-30950""",,,,29-03-2026 14:18:46,29-03-2026 14:18:46,0.001s,PASSED
+comment(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 14:18:46,29-03-2026 14:18:46,0.003s,PASSED
+logInfo(STEP 1: Search and open event/reservation '$reservationID'),,,,29-03-2026 14:18:46,29-03-2026 14:18:46,0.002s,PASSED
+AndroidOnly.selectDesiredReservation(reservationID),,,,29-03-2026 14:18:46,29-03-2026 14:19:10,23.793s,PASSED
+"comment(""STEP 2: Tap Choose Days & Times"")",,,,29-03-2026 14:19:10,29-03-2026 14:19:10,0.004s,PASSED
+"logInfo(""STEP 2: Tap Choose Days & Times"")",,,,29-03-2026 14:19:10,29-03-2026 14:19:10,0.001s,PASSED
+"CommonFunctions.safeTap(""Choose Days and Times Button"", findTestObject(""Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times""), 60)",,,,29-03-2026 14:19:10,29-03-2026 14:22:12,3m - 1.769s,FAILED
+Start listener action : afterTestCase,,,,29-03-2026 14:22:12,29-03-2026 14:22:12,0.783s,PASSED
+,,,,,,,
+Start listener action : afterTestSuite,,,,29-03-2026 14:22:12,29-03-2026 14:22:12,0.028s,PASSED

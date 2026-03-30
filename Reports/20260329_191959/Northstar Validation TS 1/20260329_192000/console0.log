@@ -1,0 +1,46 @@
+2026-03-29 19:20:02.123 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 10.4.3.app/Contents/Eclipse/configuration/org.eclipse.osgi/133/0/.cp/resources/logback/logback-execution.xml
+2026-03-29 19:20:02.124 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Include/config/log.properties
+2026-03-29 19:20:02.608 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Northstar Validation TS 1
+2026-03-29 19:20:02.655 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-29 19:20:02.655 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KJ_NorthStar_Working_Scripts
+2026-03-29 19:20:02.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-29 19:20:02.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-29 19:20:02.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-29 19:20:02.656 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-03-29 19:20:02.784 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:20:02.784 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Android/03-Events/Open and Validate Event SMC-28257
+2026-03-29 19:20:02.852 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed")
+2026-03-29 19:20:02.869 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+2026-03-29 19:20:02.870 DEBUG t.Open and Validate Event SMC-28257      - 2: comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:20:02.871 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:20:02.872 DEBUG t.Open and Validate Event SMC-28257      - 3: logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:20:02.874 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:20:02.874 DEBUG t.Open and Validate Event SMC-28257      - 4: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:20:02.877 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:20:02.877 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:20:02.896 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:20:02.897 DEBUG t.Open and Validate Event SMC-28257      - 5: if (!(applicationrunning))
+2026-03-29 19:20:02.897 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)")
+2026-03-29 19:20:02.899 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+2026-03-29 19:20:02.900 DEBUG t.Open and Validate Event SMC-28257      - 2: logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).")
+2026-03-29 19:20:02.900 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+2026-03-29 19:20:02.900 DEBUG t.Open and Validate Event SMC-28257      - 3: callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE)
+2026-03-29 19:20:02.968 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:20:02.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-29 19:20:03.002 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)")
+2026-03-29 19:20:03.003 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify Dock Menu is visible (used as login indicator)
+2026-03-29 19:20:03.003 DEBUG testcase.NavigateToEventCatalogue        - 2: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:20:03.004 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:20:03.004 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:20:03.004 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:20:03.005 DEBUG testcase.NavigateToEventCatalogue        - 3: if (!(applicationrunning))
+2026-03-29 19:20:03.005 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo(" Application instance not found. Executing Login Member test case")
+2026-03-29 19:20:03.006 INFO  com.kms.katalon.core.util.KeywordUtil    -  Application instance not found. Executing Login Member test case
+2026-03-29 19:20:03.006 DEBUG testcase.NavigateToEventCatalogue        - 2: callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE)
+2026-03-29 19:20:03.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:20:03.066 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/01-Login/Login Member
+2026-03-29 19:20:03.100 DEBUG testcase.Login Member                    - 1: logInfo("STEP 0: Set Android driver preferences (platform-specific)")
+2026-03-29 19:20:03.100 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Set Android driver preferences (platform-specific)
+2026-03-29 19:20:03.101 DEBUG testcase.Login Member                    - 2: AndroidOnly.setDriverPreferences_Android()
+2026-03-29 19:20:03.159 INFO  com.kms.katalon.core.util.KeywordUtil    - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+2026-03-29 19:20:03.162 DEBUG testcase.Login Member                    - 3: startApplication(appPath, true)

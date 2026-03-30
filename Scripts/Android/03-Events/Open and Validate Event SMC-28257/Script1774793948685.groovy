@@ -123,7 +123,7 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Android/03-Events Ca
 // Expected: View details button is visible.
 WebUI.comment('STEP 6: Verify View details button is displayed')
 KeywordUtil.logInfo('STEP 6: Verify View details button is displayed')
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View details'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 
 // STEP 7 - Event Time
 // Expected: Event Time field/label/value is visible.

@@ -1,0 +1,499 @@
+2026-03-29 19:04:23.092 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio 10.4.3.app/Contents/Eclipse/configuration/org.eclipse.osgi/133/0/.cp/resources/logback/logback-execution.xml
+2026-03-29 19:04:23.094 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Include/config/log.properties
+2026-03-29 19:04:23.364 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Northstar Validation TS 1
+2026-03-29 19:04:23.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-29 19:04:23.398 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KJ_NorthStar_Working_Scripts
+2026-03-29 19:04:23.399 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-29 19:04:23.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-29 19:04:23.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-29 19:04:23.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-03-29 19:04:23.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:04:23.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Android/03-Events/Open and Validate Event SMC-28257
+2026-03-29 19:04:23.605 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed")
+2026-03-29 19:04:23.625 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+2026-03-29 19:04:23.626 DEBUG t.Open and Validate Event SMC-28257      - 2: comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:04:23.628 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:04:23.629 DEBUG t.Open and Validate Event SMC-28257      - 3: logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:04:23.631 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:04:23.631 DEBUG t.Open and Validate Event SMC-28257      - 4: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:04:23.635 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:04:23.635 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:04:23.659 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:04:23.660 DEBUG t.Open and Validate Event SMC-28257      - 5: if (!(applicationrunning))
+2026-03-29 19:04:23.661 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)")
+2026-03-29 19:04:23.663 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+2026-03-29 19:04:23.663 DEBUG t.Open and Validate Event SMC-28257      - 2: logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).")
+2026-03-29 19:04:23.664 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+2026-03-29 19:04:23.665 DEBUG t.Open and Validate Event SMC-28257      - 3: callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE)
+2026-03-29 19:04:23.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:04:23.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-29 19:04:23.765 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)")
+2026-03-29 19:04:23.766 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify Dock Menu is visible (used as login indicator)
+2026-03-29 19:04:23.767 DEBUG testcase.NavigateToEventCatalogue        - 2: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:04:23.767 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:04:23.767 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:04:23.768 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:04:23.768 DEBUG testcase.NavigateToEventCatalogue        - 3: if (!(applicationrunning))
+2026-03-29 19:04:23.769 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo(" Application instance not found. Executing Login Member test case")
+2026-03-29 19:04:23.769 INFO  com.kms.katalon.core.util.KeywordUtil    -  Application instance not found. Executing Login Member test case
+2026-03-29 19:04:23.770 DEBUG testcase.NavigateToEventCatalogue        - 2: callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE)
+2026-03-29 19:04:23.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:04:23.832 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/01-Login/Login Member
+2026-03-29 19:04:23.986 DEBUG testcase.Login Member                    - 1: logInfo("STEP 0: Set Android driver preferences (platform-specific)")
+2026-03-29 19:04:23.988 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Set Android driver preferences (platform-specific)
+2026-03-29 19:04:23.989 DEBUG testcase.Login Member                    - 2: AndroidOnly.setDriverPreferences_Android()
+2026-03-29 19:04:24.128 INFO  com.kms.katalon.core.util.KeywordUtil    - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+2026-03-29 19:04:24.135 DEBUG testcase.Login Member                    - 3: startApplication(appPath, true)
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2026-03-29 19:04:24.172 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: 'D:\APK\ClubNow-Android.apk' by '7f6739f8-16fa-4e6f-8df2-03064494749e'
+2026-03-29 19:04:24.172 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"7f6739f8-16fa-4e6f-8df2-03064494749e","organizationId":"3288056","name":"ClubNow 3.0","platform":"ANDROID","status":"READY","size":25370953,"storagePath":"be88be85-0c36-420a-a26c-9312ec50a6f2","uploadedDate":"2026-03-25T15:10:15.620697","createdDate":"2026-03-25T15:10:15.620697","updatedDate":"2026-03-25T15:10:19.088786","fileName":"CN30.apk","metadata":{"identifier":"com.sibisoft.clubnowautomation","name":"ClubNow 3.0","version":"1.0.1"}}'
+2026-03-29 19:04:24.173 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+2026-03-29 19:04:24.185 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app, androidInstallTimeout=appium:androidInstallTimeout, dontStopAppOnReset=appium:dontStopAppOnReset, newCommandTimeout=appium:newCommandTimeout, adbExecTimeout=appium:adbExecTimeout, automationName=appium:automationName, autoGrantPermissions=appium:autoGrantPermissions, appWaitDuration=appium:appWaitDuration
+2026-03-29 19:04:39.633 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 10 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json)
+2026-03-29 19:04:39.857 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NzQ5NzY5MjAsImlhdCI6MTc3NDgwNDEyMCwianRpIjoib25ydG5hOmI2YTQ1N2U2LTUxNjQtZTUzNy0xNjE2LWJjMDU4OWExZTJlYSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6ImRkMjQ1YjRmLTZiMGQtODQ1NS1iYTMwLWVlOGEwNTZmMDJmZiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzQ4MDM0NTMyODAsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.dRjGg4nYVJzxWBeDd-Sw7juQGf1LGj5gnWK9Oh5B2lN7nw6SP0HpFSqdAU9mnsvYcNtZyqEemUY0hPZUBKoXJGZTVpK4p6piCpdlTRZs5wE59FA9C2FGorhzHHjzJCZ6GG7IIuMGn_dV_Rd8-cClPtGG9pK5PR9pz_vZlfYN228RzfzmFPMpr_eq55y83NFQX2sXwmRGeKWIE4Nj5br8KRAYU-U-AUwnBgjmq0YQ_WRA9GS4ntUqHJ3OhqrcsQfSISWY8wbINxvuHfgWBmeCZ3qfZfxFCUFAUjwlDZ_phaaP8QKZyhUU4_Q-gzHOMmrsrNZz1rC25QyhqfvZugNYIQ@testcloud.katalon.com/wd/hub
+2026-03-29 19:04:39.859 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {
+  "app": "7f6739f8-16fa-4e6f-8df2-03064494749e",
+  "Uiautomator2ServerLaunchTimeout": 200000,
+  "dontStopAppOnReset": false,
+  "enableAppProfiling": false,
+  "uiautomator2ServerInstallTimeout": 200000,
+  "appium:platformVersion": "16",
+  "appWaitDuration": 60000,
+  "enableNetwork": false,
+  "androidInstallTimeout": 200000,
+  "newCommandTimeout": 300,
+  "adbExecTimeout": 200000,
+  "automationName": "uiautomator2",
+  "autoGrantPermissions": true,
+  "appium:deviceName": "Any Phone",
+  "platformName": "ANDROID",
+  "ignoreHiddenApiPolicyError": true,
+  "katalon:options": {
+    "metadata": {
+      "organizationId": "3288056",
+      "accountId": "1649991",
+      "channel": "kse;v\u003d10.4.3",
+      "projectId": "3251113"
+    },
+    "appiumVersion": "2.11.2",
+    "executionMode": "queue",
+    "usingTunnel": false
+  }
+}
+2026-03-29 19:04:39.862 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {
+  "deviceName": "Google Pixel 6",
+  "executionId": "75233fc0-663e-4fd0-9e83-c1aededd79d0",
+  "executionSessionId": "3129bbad-4f1e-40c3-b5a5-54a103054bc4"
+}
+2026-03-29 19:04:39.862 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Google Pixel 6
+2026-03-29 19:04:40.208 DEBUG testcase.Login Member                    - 4: delay(25)
+2026-03-29 19:05:05.229 DEBUG testcase.Login Member                    - 5: logInfo("STEP 1: Tap "Continue to Login"")
+2026-03-29 19:05:05.230 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap "Continue to Login"
+2026-03-29 19:05:05.233 DEBUG testcase.Login Member                    - 6: CommonFunctions.safeTap("Continue to Login Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Continue to Login"), 30)
+2026-03-29 19:05:05.275 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Continue to Login Button'
+2026-03-29 19:05:05.276 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 30
+2026-03-29 19:05:07.380 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:05:10.476 DEBUG testcase.Login Member                    - 7: logInfo("STEP 2: Enter Member Number")
+2026-03-29 19:05:10.478 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Enter Member Number
+2026-03-29 19:05:10.479 DEBUG testcase.Login Member                    - 8: CommonFunctions.safeSendKeys("Enter User ID", findTestObject("Object Repository/Android/01-Login/android.widget.member_number"), loginUsername)
+2026-03-29 19:05:10.489 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter User ID' with value '0001'
+2026-03-29 19:05:10.491 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:05:11.628 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:05:18.363 DEBUG testcase.Login Member                    - 9: logInfo("STEP 3: Enter Password")
+2026-03-29 19:05:18.364 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Enter Password
+2026-03-29 19:05:18.365 DEBUG testcase.Login Member                    - 10: CommonFunctions.safeSendKeys("Enter Password", findTestObject("Object Repository/Android/01-Login/android.widget.member_password"), loginPassword)
+2026-03-29 19:05:18.370 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter Password' with value '123456'
+2026-03-29 19:05:18.371 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:05:19.543 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:05:26.196 DEBUG testcase.Login Member                    - 11: logInfo("STEP 4: Tap "Sign In"")
+2026-03-29 19:05:26.197 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Tap "Sign In"
+2026-03-29 19:05:26.198 DEBUG testcase.Login Member                    - 12: CommonFunctions.safeTap("Signin Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Sign In"))
+2026-03-29 19:05:26.206 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Signin Button'
+2026-03-29 19:05:26.206 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:05:27.360 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:05:29.362 DEBUG testcase.Login Member                    - 13: logInfo(STEP 5: Handle permission popups if autoGrantPermissions = $GlobalVariable.autoGrantPermissions)
+2026-03-29 19:05:29.364 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Handle permission popups if autoGrantPermissions = true
+2026-03-29 19:05:29.364 DEBUG testcase.Login Member                    - 14: if (autoGrantPermissions == false)
+2026-03-29 19:05:29.370 DEBUG testcase.Login Member                    - 15: delay(5)
+2026-03-29 19:05:34.381 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Android/01-Login/Login Member
+2026-03-29 19:05:34.381 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:05:34.389 DEBUG testcase.NavigateToEventCatalogue        - 5: logInfo("STEP 1: Tap Dock Menu button")
+2026-03-29 19:05:34.391 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap Dock Menu button
+2026-03-29 19:05:34.392 DEBUG testcase.NavigateToEventCatalogue        - 6: CommonFunctions.safeTap("Dock Menu Button", findTestObject("Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button"), 60)
+2026-03-29 19:05:34.399 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Dock Menu Button'
+2026-03-29 19:05:34.400 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:05:40.984 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:05:45.023 DEBUG testcase.NavigateToEventCatalogue        - 7: logInfo("STEP 2: Wait for Dock Menu to load")
+2026-03-29 19:05:45.025 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Wait for Dock Menu to load
+2026-03-29 19:05:45.026 DEBUG testcase.NavigateToEventCatalogue        - 8: delay(5)
+2026-03-29 19:05:50.036 DEBUG testcase.NavigateToEventCatalogue        - 9: logInfo("STEP 3: Tap Menu Search Field")
+2026-03-29 19:05:50.037 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Tap Menu Search Field
+2026-03-29 19:05:50.038 DEBUG testcase.NavigateToEventCatalogue        - 10: CommonFunctions.safeTap("Tap Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), 60)
+2026-03-29 19:05:50.043 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap Menu Search Field'
+2026-03-29 19:05:50.044 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:05:51.388 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:05:57.350 DEBUG testcase.NavigateToEventCatalogue        - 11: delay(5)
+2026-03-29 19:06:02.361 DEBUG testcase.NavigateToEventCatalogue        - 12: logInfo("STEP 4: Type "Events Catalogue" into Menu Search Field")
+2026-03-29 19:06:02.362 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Type "Events Catalogue" into Menu Search Field
+2026-03-29 19:06:02.363 DEBUG testcase.NavigateToEventCatalogue        - 13: CommonFunctions.safeSendKeys("Type into Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), "Events Catalogue", 10)
+2026-03-29 19:06:02.372 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Type into Menu Search Field' with value 'Events Catalogue'
+2026-03-29 19:06:02.373 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:06:03.762 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:06:10.391 DEBUG testcase.NavigateToEventCatalogue        - 14: logInfo("STEP 5: Hide keyboard (if displayed)")
+2026-03-29 19:06:10.393 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Hide keyboard (if displayed)
+2026-03-29 19:06:10.394 DEBUG testcase.NavigateToEventCatalogue        - 15: hideKeyboard()
+2026-03-29 19:06:10.799 DEBUG testcase.NavigateToEventCatalogue        - 16: logInfo("STEP 6: Tap "Events Catalogue" menu item")
+2026-03-29 19:06:10.800 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 6: Tap "Events Catalogue" menu item
+2026-03-29 19:06:10.801 DEBUG testcase.NavigateToEventCatalogue        - 17: CommonFunctions.safeTap("Events Catalogue Element", findTestObject("Android/02-Dock Menu/android.widget.Button - Events Catalogue"), 10)
+2026-03-29 19:06:10.807 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Events Catalogue Element'
+2026-03-29 19:06:10.808 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:06:11.991 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:06:14.105 DEBUG testcase.NavigateToEventCatalogue        - 18: delay(10)
+2026-03-29 19:06:24.115 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-29 19:06:24.115 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:06:24.117 DEBUG t.Open and Validate Event SMC-28257      - 7: reservationID = "Reservation-SMC-28257"
+2026-03-29 19:06:24.118 DEBUG t.Open and Validate Event SMC-28257      - 8: comment(STEP 1: Search and open event/reservation '$reservationID')
+2026-03-29 19:06:24.121 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+2026-03-29 19:06:24.123 DEBUG t.Open and Validate Event SMC-28257      - 9: logInfo(STEP 1: Search and open event/reservation '$reservationID')
+2026-03-29 19:06:24.124 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Search and open event/reservation 'Reservation-SMC-28257'
+2026-03-29 19:06:24.125 DEBUG t.Open and Validate Event SMC-28257      - 10: AndroidOnly.selectDesiredReservation(reservationID)
+2026-03-29 19:06:24.126 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap magnifying glass to open Event search
+2026-03-29 19:06:24.132 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Magnifying Glass Button'
+2026-03-29 19:06:24.133 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:06:25.483 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:06:30.304 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Tap Search Events input field
+2026-03-29 19:06:30.310 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap Search Events Field'
+2026-03-29 19:06:30.310 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:06:31.525 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:06:36.350 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Enter search text: Reservation-SMC-28257
+2026-03-29 19:06:36.361 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Populate Search Event Field' with value 'Reservation-SMC-28257'
+2026-03-29 19:06:36.362 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:06:37.657 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:06:40.756 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Select event from results: Reservation-SMC-28257
+2026-03-29 19:06:40.762 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap First Event'
+2026-03-29 19:06:40.762 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:06:42.742 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:06:49.933 DEBUG t.Open and Validate Event SMC-28257      - 11: comment("STEP 2: Verify Event Number is displayed")
+2026-03-29 19:06:49.937 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 2: Verify Event Number is displayed
+2026-03-29 19:06:49.938 DEBUG t.Open and Validate Event SMC-28257      - 12: logInfo("STEP 2: Verify Event Number is displayed")
+2026-03-29 19:06:49.939 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Verify Event Number is displayed
+2026-03-29 19:06:49.940 DEBUG t.Open and Validate Event SMC-28257      - 13: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Number"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:51.184 DEBUG t.Open and Validate Event SMC-28257      - 14: comment("STEP 3: Verify Participant Count is displayed")
+2026-03-29 19:06:51.187 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 3: Verify Participant Count is displayed
+2026-03-29 19:06:51.188 DEBUG t.Open and Validate Event SMC-28257      - 15: logInfo("STEP 3: Verify Participant Count is displayed")
+2026-03-29 19:06:51.189 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Verify Participant Count is displayed
+2026-03-29 19:06:51.190 DEBUG t.Open and Validate Event SMC-28257      - 16: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Participant Count"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:52.504 DEBUG t.Open and Validate Event SMC-28257      - 17: comment("STEP 4: Verify Event Status is displayed")
+2026-03-29 19:06:52.507 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 4: Verify Event Status is displayed
+2026-03-29 19:06:52.508 DEBUG t.Open and Validate Event SMC-28257      - 18: logInfo("STEP 4: Verify Event Status is displayed")
+2026-03-29 19:06:52.509 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Verify Event Status is displayed
+2026-03-29 19:06:52.510 DEBUG t.Open and Validate Event SMC-28257      - 19: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Status"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:53.937 DEBUG t.Open and Validate Event SMC-28257      - 20: comment("STEP 5: Verify Event Date is displayed")
+2026-03-29 19:06:53.939 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 5: Verify Event Date is displayed
+2026-03-29 19:06:53.940 DEBUG t.Open and Validate Event SMC-28257      - 21: logInfo("STEP 5: Verify Event Date is displayed")
+2026-03-29 19:06:53.941 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Verify Event Date is displayed
+2026-03-29 19:06:53.942 DEBUG t.Open and Validate Event SMC-28257      - 22: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Date"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:55.175 DEBUG t.Open and Validate Event SMC-28257      - 23: comment("STEP 6: Verify View details button is displayed")
+2026-03-29 19:06:55.178 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 6: Verify View details button is displayed
+2026-03-29 19:06:55.179 DEBUG t.Open and Validate Event SMC-28257      - 24: logInfo("STEP 6: Verify View details button is displayed")
+2026-03-29 19:06:55.180 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 6: Verify View details button is displayed
+2026-03-29 19:06:55.182 DEBUG t.Open and Validate Event SMC-28257      - 25: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.Button - View Details"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:56.340 DEBUG t.Open and Validate Event SMC-28257      - 26: comment("STEP 7: Verify Event Time is displayed")
+2026-03-29 19:06:56.343 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 7: Verify Event Time is displayed
+2026-03-29 19:06:56.344 DEBUG t.Open and Validate Event SMC-28257      - 27: logInfo("STEP 7: Verify Event Time is displayed")
+2026-03-29 19:06:56.345 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 7: Verify Event Time is displayed
+2026-03-29 19:06:56.346 DEBUG t.Open and Validate Event SMC-28257      - 28: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Time"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:57.533 DEBUG t.Open and Validate Event SMC-28257      - 29: comment("STEP 8: Verify Event Location is displayed")
+2026-03-29 19:06:57.535 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 8: Verify Event Location is displayed
+2026-03-29 19:06:57.536 DEBUG t.Open and Validate Event SMC-28257      - 30: logInfo("STEP 8: Verify Event Location is displayed")
+2026-03-29 19:06:57.538 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 8: Verify Event Location is displayed
+2026-03-29 19:06:57.539 DEBUG t.Open and Validate Event SMC-28257      - 31: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-28257/android.widget.TextView - Event Location"), 10, CONTINUE_ON_FAILURE)
+2026-03-29 19:06:58.840 DEBUG t.Open and Validate Event SMC-28257      - 32: comment("END: Open Event SMC-28257 validations completed")
+2026-03-29 19:06:58.844 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - END: Open Event SMC-28257 validations completed
+2026-03-29 19:06:58.845 DEBUG t.Open and Validate Event SMC-28257      - 33: logInfo("END: Open Event SMC-28257 validations completed")
+2026-03-29 19:06:58.846 INFO  com.kms.katalon.core.util.KeywordUtil    - END: Open Event SMC-28257 validations completed
+2026-03-29 19:06:58.854 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-28257 | status=PASSED
+2026-03-29 19:06:58.855 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener][OPTIONAL] Closing application after test case
+2026-03-29 19:07:00.022 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Android/03-Events/Open and Validate Event SMC-28257
+2026-03-29 19:07:00.028 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:07:00.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Android/03-Events/Open and Validate Event SMC-30950
+2026-03-29 19:07:00.083 DEBUG t.Open and Validate Event SMC-30950      - 1: comment("TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed")
+2026-03-29 19:07:00.084 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - TC PURPOSE: Open Reservation-SMC-30950 from Event Catalogue and validate key details are displayed
+2026-03-29 19:07:00.084 DEBUG t.Open and Validate Event SMC-30950      - 2: comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:07:00.085 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:07:00.085 DEBUG t.Open and Validate Event SMC-30950      - 3: logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-29 19:07:00.085 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-29 19:07:00.086 DEBUG t.Open and Validate Event SMC-30950      - 4: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:07:00.086 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:07:00.086 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:07:00.086 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:07:00.087 DEBUG t.Open and Validate Event SMC-30950      - 5: if (!(applicationrunning))
+2026-03-29 19:07:00.087 DEBUG t.Open and Validate Event SMC-30950      - 1: comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)")
+2026-03-29 19:07:00.087 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+2026-03-29 19:07:00.087 DEBUG t.Open and Validate Event SMC-30950      - 2: logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).")
+2026-03-29 19:07:00.088 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+2026-03-29 19:07:00.088 DEBUG t.Open and Validate Event SMC-30950      - 3: callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE)
+2026-03-29 19:07:00.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:07:00.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-29 19:07:00.154 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)")
+2026-03-29 19:07:00.154 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify Dock Menu is visible (used as login indicator)
+2026-03-29 19:07:00.154 DEBUG testcase.NavigateToEventCatalogue        - 2: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-29 19:07:00.154 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-29 19:07:00.154 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-29 19:07:00.155 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-29 19:07:00.155 DEBUG testcase.NavigateToEventCatalogue        - 3: if (!(applicationrunning))
+2026-03-29 19:07:00.155 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo(" Application instance not found. Executing Login Member test case")
+2026-03-29 19:07:00.155 INFO  com.kms.katalon.core.util.KeywordUtil    -  Application instance not found. Executing Login Member test case
+2026-03-29 19:07:00.155 DEBUG testcase.NavigateToEventCatalogue        - 2: callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE)
+2026-03-29 19:07:00.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:07:00.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/01-Login/Login Member
+2026-03-29 19:07:00.217 DEBUG testcase.Login Member                    - 1: logInfo("STEP 0: Set Android driver preferences (platform-specific)")
+2026-03-29 19:07:00.217 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Set Android driver preferences (platform-specific)
+2026-03-29 19:07:00.217 DEBUG testcase.Login Member                    - 2: AndroidOnly.setDriverPreferences_Android()
+2026-03-29 19:07:00.217 INFO  com.kms.katalon.core.util.KeywordUtil    - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+2026-03-29 19:07:00.217 DEBUG testcase.Login Member                    - 3: startApplication(appPath, true)
+2026-03-29 19:07:00.218 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: 'D:\APK\ClubNow-Android.apk' by '7f6739f8-16fa-4e6f-8df2-03064494749e'
+2026-03-29 19:07:00.219 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"7f6739f8-16fa-4e6f-8df2-03064494749e","organizationId":"3288056","name":"ClubNow 3.0","platform":"ANDROID","status":"READY","size":25370953,"storagePath":"be88be85-0c36-420a-a26c-9312ec50a6f2","uploadedDate":"2026-03-25T15:10:15.620697","createdDate":"2026-03-25T15:10:15.620697","updatedDate":"2026-03-25T15:10:19.088786","fileName":"CN30.apk","metadata":{"identifier":"com.sibisoft.clubnowautomation","name":"ClubNow 3.0","version":"1.0.1"}}'
+2026-03-29 19:07:00.219 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '7f6739f8-16fa-4e6f-8df2-03064494749e'
+2026-03-29 19:07:00.219 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app, androidInstallTimeout=appium:androidInstallTimeout, dontStopAppOnReset=appium:dontStopAppOnReset, newCommandTimeout=appium:newCommandTimeout, adbExecTimeout=appium:adbExecTimeout, automationName=appium:automationName, autoGrantPermissions=appium:autoGrantPermissions, appWaitDuration=appium:appWaitDuration
+2026-03-29 19:07:17.756 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 10 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json)
+2026-03-29 19:07:18.045 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NzQ5NzY5MjAsImlhdCI6MTc3NDgwNDEyMCwianRpIjoib25ydG5hOmI2YTQ1N2U2LTUxNjQtZTUzNy0xNjE2LWJjMDU4OWExZTJlYSIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6ImRkMjQ1YjRmLTZiMGQtODQ1NS1iYTMwLWVlOGEwNTZmMDJmZiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzQ4MDM0NTMyODAsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.dRjGg4nYVJzxWBeDd-Sw7juQGf1LGj5gnWK9Oh5B2lN7nw6SP0HpFSqdAU9mnsvYcNtZyqEemUY0hPZUBKoXJGZTVpK4p6piCpdlTRZs5wE59FA9C2FGorhzHHjzJCZ6GG7IIuMGn_dV_Rd8-cClPtGG9pK5PR9pz_vZlfYN228RzfzmFPMpr_eq55y83NFQX2sXwmRGeKWIE4Nj5br8KRAYU-U-AUwnBgjmq0YQ_WRA9GS4ntUqHJ3OhqrcsQfSISWY8wbINxvuHfgWBmeCZ3qfZfxFCUFAUjwlDZ_phaaP8QKZyhUU4_Q-gzHOMmrsrNZz1rC25QyhqfvZugNYIQ@testcloud.katalon.com/wd/hub
+2026-03-29 19:07:18.047 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {
+  "app": "7f6739f8-16fa-4e6f-8df2-03064494749e",
+  "Uiautomator2ServerLaunchTimeout": 200000,
+  "dontStopAppOnReset": false,
+  "enableAppProfiling": false,
+  "uiautomator2ServerInstallTimeout": 200000,
+  "appium:platformVersion": "16",
+  "appWaitDuration": 60000,
+  "enableNetwork": false,
+  "androidInstallTimeout": 200000,
+  "newCommandTimeout": 300,
+  "adbExecTimeout": 200000,
+  "automationName": "uiautomator2",
+  "autoGrantPermissions": true,
+  "appium:deviceName": "Any Phone",
+  "platformName": "ANDROID",
+  "ignoreHiddenApiPolicyError": true,
+  "katalon:options": {
+    "metadata": {
+      "organizationId": "3288056",
+      "accountId": "1649991",
+      "channel": "kse;v\u003d10.4.3",
+      "projectId": "3251113"
+    },
+    "appiumVersion": "2.11.2",
+    "executionMode": "queue",
+    "usingTunnel": false
+  }
+}
+2026-03-29 19:07:18.048 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {
+  "deviceName": "Google Pixel 10",
+  "executionId": "63c46279-6957-4f51-b1f6-aa540fa3c160",
+  "executionSessionId": "23200f1f-0aff-4b0c-b044-f74e75444a6e"
+}
+2026-03-29 19:07:18.048 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Google Pixel 10
+2026-03-29 19:07:18.380 DEBUG testcase.Login Member                    - 4: delay(25)
+2026-03-29 19:07:43.389 DEBUG testcase.Login Member                    - 5: logInfo("STEP 1: Tap "Continue to Login"")
+2026-03-29 19:07:43.390 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap "Continue to Login"
+2026-03-29 19:07:43.391 DEBUG testcase.Login Member                    - 6: CommonFunctions.safeTap("Continue to Login Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Continue to Login"), 30)
+2026-03-29 19:07:43.395 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Continue to Login Button'
+2026-03-29 19:07:43.396 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 30
+2026-03-29 19:07:45.753 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:07:48.377 DEBUG testcase.Login Member                    - 7: logInfo("STEP 2: Enter Member Number")
+2026-03-29 19:07:48.378 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Enter Member Number
+2026-03-29 19:07:48.378 DEBUG testcase.Login Member                    - 8: CommonFunctions.safeSendKeys("Enter User ID", findTestObject("Object Repository/Android/01-Login/android.widget.member_number"), loginUsername)
+2026-03-29 19:07:48.384 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter User ID' with value '0001'
+2026-03-29 19:07:48.384 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:07:49.643 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:07:56.518 DEBUG testcase.Login Member                    - 9: logInfo("STEP 3: Enter Password")
+2026-03-29 19:07:56.519 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Enter Password
+2026-03-29 19:07:56.520 DEBUG testcase.Login Member                    - 10: CommonFunctions.safeSendKeys("Enter Password", findTestObject("Object Repository/Android/01-Login/android.widget.member_password"), loginPassword)
+2026-03-29 19:07:56.524 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Enter Password' with value '123456'
+2026-03-29 19:07:56.525 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:07:57.745 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:08:04.235 DEBUG testcase.Login Member                    - 11: logInfo("STEP 4: Tap "Sign In"")
+2026-03-29 19:08:04.236 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Tap "Sign In"
+2026-03-29 19:08:04.236 DEBUG testcase.Login Member                    - 12: CommonFunctions.safeTap("Signin Button", findTestObject("Object Repository/Android/01-Login/android.widget.Button - Sign In"))
+2026-03-29 19:08:04.240 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Signin Button'
+2026-03-29 19:08:04.241 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:08:05.515 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:08:07.325 DEBUG testcase.Login Member                    - 13: logInfo(STEP 5: Handle permission popups if autoGrantPermissions = $GlobalVariable.autoGrantPermissions)
+2026-03-29 19:08:07.326 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Handle permission popups if autoGrantPermissions = true
+2026-03-29 19:08:07.326 DEBUG testcase.Login Member                    - 14: if (autoGrantPermissions == false)
+2026-03-29 19:08:07.327 DEBUG testcase.Login Member                    - 15: delay(5)
+2026-03-29 19:08:12.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Android/01-Login/Login Member
+2026-03-29 19:08:12.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:08:12.335 DEBUG testcase.NavigateToEventCatalogue        - 5: logInfo("STEP 1: Tap Dock Menu button")
+2026-03-29 19:08:12.336 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap Dock Menu button
+2026-03-29 19:08:12.336 DEBUG testcase.NavigateToEventCatalogue        - 6: CommonFunctions.safeTap("Dock Menu Button", findTestObject("Android/02-Dock Menu/android.widget.ImageView - Dock Menu Button"), 60)
+2026-03-29 19:08:12.340 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Dock Menu Button'
+2026-03-29 19:08:12.341 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:08:34.588 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:08:38.142 DEBUG testcase.NavigateToEventCatalogue        - 7: logInfo("STEP 2: Wait for Dock Menu to load")
+2026-03-29 19:08:38.143 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Wait for Dock Menu to load
+2026-03-29 19:08:38.143 DEBUG testcase.NavigateToEventCatalogue        - 8: delay(5)
+2026-03-29 19:08:43.147 DEBUG testcase.NavigateToEventCatalogue        - 9: logInfo("STEP 3: Tap Menu Search Field")
+2026-03-29 19:08:43.148 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Tap Menu Search Field
+2026-03-29 19:08:43.149 DEBUG testcase.NavigateToEventCatalogue        - 10: CommonFunctions.safeTap("Tap Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), 60)
+2026-03-29 19:08:43.153 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap Menu Search Field'
+2026-03-29 19:08:43.153 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:08:44.535 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:08:50.632 DEBUG testcase.NavigateToEventCatalogue        - 11: delay(5)
+2026-03-29 19:08:55.640 DEBUG testcase.NavigateToEventCatalogue        - 12: logInfo("STEP 4: Type "Events Catalogue" into Menu Search Field")
+2026-03-29 19:08:55.641 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Type "Events Catalogue" into Menu Search Field
+2026-03-29 19:08:55.641 DEBUG testcase.NavigateToEventCatalogue        - 13: CommonFunctions.safeSendKeys("Type into Menu Search Field", findTestObject("Android/02-Dock Menu/android.widget.EditText  - Menu Search Field"), "Events Catalogue", 10)
+2026-03-29 19:08:55.645 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Type into Menu Search Field' with value 'Events Catalogue'
+2026-03-29 19:08:55.645 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:08:57.011 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:09:03.795 DEBUG testcase.NavigateToEventCatalogue        - 14: logInfo("STEP 5: Hide keyboard (if displayed)")
+2026-03-29 19:09:03.796 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Hide keyboard (if displayed)
+2026-03-29 19:09:03.796 DEBUG testcase.NavigateToEventCatalogue        - 15: hideKeyboard()
+2026-03-29 19:09:04.186 DEBUG testcase.NavigateToEventCatalogue        - 16: logInfo("STEP 6: Tap "Events Catalogue" menu item")
+2026-03-29 19:09:04.187 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 6: Tap "Events Catalogue" menu item
+2026-03-29 19:09:04.187 DEBUG testcase.NavigateToEventCatalogue        - 17: CommonFunctions.safeTap("Events Catalogue Element", findTestObject("Android/02-Dock Menu/android.widget.Button - Events Catalogue"), 10)
+2026-03-29 19:09:04.192 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Events Catalogue Element'
+2026-03-29 19:09:04.192 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:09:05.425 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:07.569 DEBUG testcase.NavigateToEventCatalogue        - 18: delay(10)
+2026-03-29 19:09:17.578 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-29 19:09:17.579 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-29 19:09:17.580 DEBUG t.Open and Validate Event SMC-30950      - 7: reservationID = "Reservation-SMC-30950"
+2026-03-29 19:09:17.582 DEBUG t.Open and Validate Event SMC-30950      - 8: comment(STEP 1: Search and open event/reservation '$reservationID')
+2026-03-29 19:09:17.586 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+2026-03-29 19:09:17.586 DEBUG t.Open and Validate Event SMC-30950      - 9: logInfo(STEP 1: Search and open event/reservation '$reservationID')
+2026-03-29 19:09:17.587 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Search and open event/reservation 'Reservation-SMC-30950'
+2026-03-29 19:09:17.588 DEBUG t.Open and Validate Event SMC-30950      - 10: AndroidOnly.selectDesiredReservation(reservationID)
+2026-03-29 19:09:17.589 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 1: Tap magnifying glass to open Event search
+2026-03-29 19:09:17.593 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Magnifying Glass Button'
+2026-03-29 19:09:17.593 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:09:18.834 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:24.159 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Tap Search Events input field
+2026-03-29 19:09:24.163 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap Search Events Field'
+2026-03-29 19:09:24.163 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:09:25.391 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:30.517 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Enter search text: Reservation-SMC-30950
+2026-03-29 19:09:30.521 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeSendKeys] Attempting to send keys to element 'Populate Search Event Field' with value 'Reservation-SMC-30950'
+2026-03-29 19:09:30.521 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeSendKeys retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:09:31.768 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap and send keys
+2026-03-29 19:09:34.973 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Select event from results: Reservation-SMC-30950
+2026-03-29 19:09:34.977 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Tap First Event'
+2026-03-29 19:09:34.978 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:09:36.983 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:44.013 DEBUG t.Open and Validate Event SMC-30950      - 11: comment("STEP 2: Tap Choose Days & Times")
+2026-03-29 19:09:44.016 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 2: Tap Choose Days & Times
+2026-03-29 19:09:44.017 DEBUG t.Open and Validate Event SMC-30950      - 12: logInfo("STEP 2: Tap Choose Days & Times")
+2026-03-29 19:09:44.018 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 2: Tap Choose Days & Times
+2026-03-29 19:09:44.019 DEBUG t.Open and Validate Event SMC-30950      - 13: CommonFunctions.safeTap("Choose Days and Times Button", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times"), 60)
+2026-03-29 19:09:44.024 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Choose Days and Times Button'
+2026-03-29 19:09:44.024 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:09:45.360 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:47.213 DEBUG t.Open and Validate Event SMC-30950      - 14: comment("STEP 3: Tap Edit Days")
+2026-03-29 19:09:47.216 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 3: Tap Edit Days
+2026-03-29 19:09:47.217 DEBUG t.Open and Validate Event SMC-30950      - 15: logInfo("STEP 3: Tap Edit Days")
+2026-03-29 19:09:47.218 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 3: Tap Edit Days
+2026-03-29 19:09:47.218 DEBUG t.Open and Validate Event SMC-30950      - 16: CommonFunctions.safeTap("Edit Days Item", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days"), 60)
+2026-03-29 19:09:47.222 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Edit Days Item'
+2026-03-29 19:09:47.223 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 60
+2026-03-29 19:09:48.475 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:50.449 DEBUG t.Open and Validate Event SMC-30950      - 17: comment("STEP 4: Select desired time/session from dropdown")
+2026-03-29 19:09:50.452 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 4: Select desired time/session from dropdown
+2026-03-29 19:09:50.453 DEBUG t.Open and Validate Event SMC-30950      - 18: logInfo("STEP 4: Select desired time/session from dropdown")
+2026-03-29 19:09:50.454 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 4: Select desired time/session from dropdown
+2026-03-29 19:09:50.455 DEBUG t.Open and Validate Event SMC-30950      - 19: CommonFunctions.safeTap("Select Desired Time Dropdown", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.view.View - Select Desired Time"), 10)
+2026-03-29 19:09:50.460 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Select Desired Time Dropdown'
+2026-03-29 19:09:50.460 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:09:51.682 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:09:53.649 DEBUG t.Open and Validate Event SMC-30950      - 20: comment("")
+2026-03-29 19:09:53.652 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - 
+2026-03-29 19:09:53.653 DEBUG t.Open and Validate Event SMC-30950      - 21: comment("STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable")
+2026-03-29 19:09:53.654 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable
+2026-03-29 19:09:53.655 DEBUG t.Open and Validate Event SMC-30950      - 22: logInfo("STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable")
+2026-03-29 19:09:53.655 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable
+2026-03-29 19:09:53.656 DEBUG t.Open and Validate Event SMC-30950      - 23: if (verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Select All"), 20, CONTINUE_ON_FAILURE) == true)
+2026-03-29 19:09:54.881 DEBUG t.Open and Validate Event SMC-30950      - 1: verifyElementAttributeValue(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Select All"), "enabled", "false", 10)
+2026-03-29 19:09:56.292 DEBUG t.Open and Validate Event SMC-30950      - 24: if (verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Clear Selection"), 20, CONTINUE_ON_FAILURE) == true)
+2026-03-29 19:09:57.463 DEBUG t.Open and Validate Event SMC-30950      - 1: verifyElementAttributeValue(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Clear Selection"), "enabled", "false", 10)
+2026-03-29 19:09:58.975 DEBUG t.Open and Validate Event SMC-30950      - 25: if (verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.CheckBox - Day Selection Checkbox"), 20, CONTINUE_ON_FAILURE) == true)
+2026-03-29 19:10:00.135 DEBUG t.Open and Validate Event SMC-30950      - 1: verifyElementAttributeValue(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.CheckBox - Day Selection Checkbox"), "checkable", "false", 10)
+2026-03-29 19:10:01.508 DEBUG t.Open and Validate Event SMC-30950      - 26: comment("STEP 6: Tap Confirm to apply day/time selection")
+2026-03-29 19:10:01.510 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 6: Tap Confirm to apply day/time selection
+2026-03-29 19:10:01.511 DEBUG t.Open and Validate Event SMC-30950      - 27: logInfo("STEP 6: Tap Confirm to apply day/time selection")
+2026-03-29 19:10:01.512 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 6: Tap Confirm to apply day/time selection
+2026-03-29 19:10:01.512 DEBUG t.Open and Validate Event SMC-30950      - 28: CommonFunctions.safeTap("Confirm Button", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Confirm"), 10)
+2026-03-29 19:10:01.517 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Confirm Button'
+2026-03-29 19:10:01.517 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:10:02.768 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:10:04.636 DEBUG t.Open and Validate Event SMC-30950      - 29: comment("STEP 7: Select attendee = Myself")
+2026-03-29 19:10:04.638 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 7: Select attendee = Myself
+2026-03-29 19:10:04.639 DEBUG t.Open and Validate Event SMC-30950      - 30: logInfo("STEP 7: Select attendee = Myself")
+2026-03-29 19:10:04.641 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 7: Select attendee = Myself
+2026-03-29 19:10:04.641 DEBUG t.Open and Validate Event SMC-30950      - 31: CommonFunctions.safeTap("Myself Button", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Myself"), 20)
+2026-03-29 19:10:04.645 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Myself Button'
+2026-03-29 19:10:04.646 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 20
+2026-03-29 19:10:05.857 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:10:07.678 DEBUG t.Open and Validate Event SMC-30950      - 32: comment("STEP 8: Accept Waiver and Consent")
+2026-03-29 19:10:07.680 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 8: Accept Waiver and Consent
+2026-03-29 19:10:07.681 DEBUG t.Open and Validate Event SMC-30950      - 33: logInfo("STEP 8: Accept Waiver and Consent")
+2026-03-29 19:10:07.682 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 8: Accept Waiver and Consent
+2026-03-29 19:10:07.683 DEBUG t.Open and Validate Event SMC-30950      - 34: CommonFunctions.safeTap("Waiver and Consent Checkbox", findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.checkbox - Waiver and Consent"), 10)
+2026-03-29 19:10:07.687 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][safeTap] Attempting to tap element 'Waiver and Consent Checkbox'
+2026-03-29 19:10:07.687 INFO  com.kms.katalon.core.util.KeywordUtil    - In safeTap retry loop, iteration: 1, object timeout: 10
+2026-03-29 19:10:08.927 INFO  com.kms.katalon.core.util.KeywordUtil    - Element found on attempt 1, proceeding to tap
+2026-03-29 19:10:10.920 DEBUG t.Open and Validate Event SMC-30950      - 35: comment("STEP 9: Verify Create Reservation is clickable")
+2026-03-29 19:10:10.923 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 9: Verify Create Reservation is clickable
+2026-03-29 19:10:10.924 DEBUG t.Open and Validate Event SMC-30950      - 36: logInfo("STEP 9: Verify Create Reservation is clickable")
+2026-03-29 19:10:10.924 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 9: Verify Create Reservation is clickable
+2026-03-29 19:10:10.925 DEBUG t.Open and Validate Event SMC-30950      - 37: verifyElementExist(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation"), 10)
+2026-03-29 19:10:12.389 DEBUG t.Open and Validate Event SMC-30950      - 38: verifyElementAttributeValue(findTestObject("Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation"), "clickable", "true", 10)
+2026-03-29 19:10:13.952 DEBUG t.Open and Validate Event SMC-30950      - 39: comment("END: Open Event SMC-30950 validations completed")
+2026-03-29 19:10:13.955 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - END: Open Event SMC-30950 validations completed
+2026-03-29 19:10:13.955 DEBUG t.Open and Validate Event SMC-30950      - 40: logInfo("END: Open Event SMC-30950 validations completed")
+2026-03-29 19:10:13.956 INFO  com.kms.katalon.core.util.KeywordUtil    - END: Open Event SMC-30950 validations completed
+2026-03-29 19:10:13.957 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] AFTER TEST CASE: Test Cases/Android/03-Events/Open and Validate Event SMC-30950 | status=PASSED
+2026-03-29 19:10:13.958 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener][OPTIONAL] Closing application after test case
+2026-03-29 19:10:15.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Android/03-Events/Open and Validate Event SMC-30950
+2026-03-29 19:10:15.152 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener] AFTER TEST SUITE: Test Suites/Northstar Validation TS 1
+2026-03-29 19:10:15.154 INFO  com.kms.katalon.core.util.KeywordUtil    - [Listener][OPTIONAL] Closing application after test suite
+2026-03-29 19:10:15.177 WARN  c.k.k.core.keyword.internal.KeywordMain  - Unable to close app (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:65)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:96)
+	at CloseMobileApplication.afterTestSuite(CloseMobileApplication.groovy:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.executeListenerAfterTestSuite(TestSuiteExecutor.java:126)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:114)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1774825461622.run(TempTestSuite1774825461622.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:39)
+	at jdk.internal.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+2026-03-29 19:10:15.181 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-29 19:10:15.181 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Northstar Validation TS 1
+2026-03-29 19:10:15.181 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
