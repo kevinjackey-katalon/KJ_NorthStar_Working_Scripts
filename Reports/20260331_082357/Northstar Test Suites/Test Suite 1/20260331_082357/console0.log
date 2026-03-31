@@ -1,0 +1,89 @@
+2026-03-31 08:23:58.665 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Users/kevin.jackey/Downloads/Katalon Studio 11.1.0 Beta.app/Contents/Eclipse/configuration/org.eclipse.osgi/149/0/.cp/resources/logback/logback-execution.xml
+2026-03-31 08:23:58.666 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/kevin.jackey/git/KJ_NorthStar_Working_Scripts/Include/config/log.properties
+2026-03-31 08:23:58.795 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Northstar Test Suites/Test Suite 1
+2026-03-31 08:23:58.820 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Kevin Jackey
+2026-03-31 08:23:58.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KJ_NorthStar_Working_Scripts
+2026-03-31 08:23:58.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kevin.jackey - 192.168.1.222
+2026-03-31 08:23:58.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-03-31 08:23:58.821 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.222
+2026-03-31 08:23:58.822 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.0.0
+2026-03-31 08:23:58.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-31 08:23:58.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Android/03-Events/Open and Validate Event SMC-28257
+2026-03-31 08:23:58.994 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed")
+2026-03-31 08:23:59.017 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - TC PURPOSE: Open Reservation-SMC-28257 from Event Catalogue and validate key details are displayed
+2026-03-31 08:23:59.017 DEBUG t.Open and Validate Event SMC-28257      - 2: comment("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-31 08:23:59.018 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-31 08:23:59.019 DEBUG t.Open and Validate Event SMC-28257      - 3: logInfo("STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)")
+2026-03-31 08:23:59.021 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify app session is running and user is on Event Catalogue (magnifying glass visible)
+2026-03-31 08:23:59.021 DEBUG t.Open and Validate Event SMC-28257      - 4: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-31 08:23:59.025 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-31 08:23:59.025 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-31 08:23:59.043 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-31 08:23:59.044 DEBUG t.Open and Validate Event SMC-28257      - 5: if (!(applicationrunning))
+2026-03-31 08:23:59.045 DEBUG t.Open and Validate Event SMC-28257      - 1: comment("STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)")
+2026-03-31 08:23:59.046 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - STEP 0.1: Application instance not found -> Navigate to Event Catalogue (login/init flow)
+2026-03-31 08:23:59.046 DEBUG t.Open and Validate Event SMC-28257      - 2: logInfo("STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).")
+2026-03-31 08:23:59.046 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0.1: Application instance not found. Navigating to Event Catalogue (login/init flow).
+2026-03-31 08:23:59.047 DEBUG t.Open and Validate Event SMC-28257      - 3: callTestCase(findTestCase("Android/02-Events Catalogue/NavigateToEventCatalogue"), [:], STOP_ON_FAILURE)
+2026-03-31 08:23:59.114 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-31 08:23:59.114 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/02-Events Catalogue/NavigateToEventCatalogue
+2026-03-31 08:23:59.145 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo("STEP 0: Verify Dock Menu is visible (used as login indicator)")
+2026-03-31 08:23:59.145 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Verify Dock Menu is visible (used as login indicator)
+2026-03-31 08:23:59.146 DEBUG testcase.NavigateToEventCatalogue        - 2: applicationrunning = CommonFunctions.isApplicationRunning()
+2026-03-31 08:23:59.146 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] Device Check 
+2026-03-31 08:23:59.146 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions][STEP 1] Attempt to get current Appium session & capabilities
+2026-03-31 08:23:59.147 INFO  com.kms.katalon.core.util.KeywordUtil    - [CommonFunctions] No driver available at this point. Reason: No application is started yet.
+2026-03-31 08:23:59.147 DEBUG testcase.NavigateToEventCatalogue        - 3: if (!(applicationrunning))
+2026-03-31 08:23:59.147 DEBUG testcase.NavigateToEventCatalogue        - 1: logInfo(" Application instance not found. Executing Login Member test case")
+2026-03-31 08:23:59.148 INFO  com.kms.katalon.core.util.KeywordUtil    -  Application instance not found. Executing Login Member test case
+2026-03-31 08:23:59.148 DEBUG testcase.NavigateToEventCatalogue        - 2: callTestCase(findTestCase("Android/01-Login/Login Member"), [:], STOP_ON_FAILURE)
+2026-03-31 08:23:59.207 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-31 08:23:59.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Android/01-Login/Login Member
+2026-03-31 08:23:59.238 DEBUG testcase.Login Member                    - 1: logInfo("STEP 0: Set Android driver preferences (platform-specific)")
+2026-03-31 08:23:59.238 INFO  com.kms.katalon.core.util.KeywordUtil    - STEP 0: Set Android driver preferences (platform-specific)
+2026-03-31 08:23:59.238 DEBUG testcase.Login Member                    - 2: AndroidOnly.setDriverPreferences_Android()
+2026-03-31 08:23:59.292 INFO  com.kms.katalon.core.util.KeywordUtil    - Applying mobile caps from Global Variables: ignoreHiddenApiPolicyError=true, PlatformName=Android, AutomationName=uiautomator2, AutoGrantPermissions=true, DontStopAppOnReset=false, AdbExecTimeout=200000, AndroidInstallTimeout=200000, Uiautomator2ServerLaunchTimeout=200000, NewCommandTimeout=300, AppWaitDuration=60000, app=D:\APK\ClubNow-Android.apk, Uiautomator2ServerInstallTimeout=200000enableNetwork=falseenableAppProfiling=false
+2026-03-31 08:23:59.296 DEBUG testcase.Login Member                    - 3: startApplication(appPath, true)
+2026-03-31 08:23:59.337 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Overriding application: 'D:\APK\ClubNow-Android.apk' by '1a033bbc-b9c7-46a9-9968-b3758109c714'
+2026-03-31 08:23:59.338 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Override application info: '{"id":"1a033bbc-b9c7-46a9-9968-b3758109c714","organizationId":"3426286","name":"ClubNow 3.0","platform":"ANDROID","status":"READY","size":25370953,"storagePath":"974795eb-2802-44f7-b2bf-f68155807e57","uploadedDate":"2026-03-30T17:10:14.231164","createdDate":"2026-03-30T17:10:14.231164","updatedDate":"2026-03-30T17:10:18.324637","fileName":"CN30.apk","metadata":{"identifier":"com.sibisoft.clubnowautomation","name":"ClubNow 3.0","version":"1.0.1","versionCode":"1"}}'
+2026-03-31 08:23:59.338 INFO  c.k.k.c.m.k.b.StartApplicationKeyword    - Starting application: '1a033bbc-b9c7-46a9-9968-b3758109c714'
+2026-03-31 08:23:59.350 INFO  c.k.k.core.appium.util.AppiumDriverUtil  - There are uncompatible capabilities keys which will be replaced: app=appium:app, androidInstallTimeout=appium:androidInstallTimeout, dontStopAppOnReset=appium:dontStopAppOnReset, newCommandTimeout=appium:newCommandTimeout, adbExecTimeout=appium:adbExecTimeout, automationName=appium:automationName, autoGrantPermissions=appium:autoGrantPermissions, appWaitDuration=appium:appWaitDuration
+2026-03-31 08:24:16.115 WARN  c.k.k.c.a.driver.AppiumRequestService    - Unable to get appium status. Root cause (com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 10 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json)
+2026-03-31 08:24:16.405 INFO  c.k.k.c.a.driver.AppiumDriverManager     - remoteDriverUrl = https://token:eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJpZTlDMnN4ZjZ4czczSHJxY0QyejRxcVVzNEFpOWVzNXR5SVVKYmRTYW04In0.eyJleHAiOjE3NzUxMzI1NzIsImlhdCI6MTc3NDk1OTc3MiwianRpIjoib25ydG5hOjAwZTQzODFkLTViMzUtMjcxZS1mYmQ2LTBjYjkzZjgxMjVmMCIsImlzcyI6Imh0dHBzOi8vbG9naW4ua2F0YWxvbi5jb20vcmVhbG1zL2thdGFsb24iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiOTc5YzBmNDQtMTBhOC00MjQwLTg3NzgtYWQzODljOThmZTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoia2F0YWxvbi1hZG1pbiIsInNpZCI6IjE0NTFlY2QyLWFiNmUtZWRhNS0xMmQyLTQwYzQ3NjUwYjc2ZSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly9teS5rYXRhbG9uLmNvbSIsImh0dHBzOi8vYWRtaW4ua2F0YWxvbi5jb20iXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy1rYXRhbG9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwidXBkYXRlZF90aW1lc3RhbXAiOjE3NTg4OTUxNTcxNzAsImxhc3RfbG9naW4iOjE3NzQ5NTkzMjY2MDAsIm5hbWUiOiJLZXZpbiBKYWNrZXkiLCJjcmVhdGVkX3RpbWVzdGFtcCI6MTc1ODY0MzY1MjkwNSwicHJlZmVycmVkX3VzZXJuYW1lIjoia2V2aW4uamFja2V5QGthdGFsb24uY29tIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJKYWNrZXkiLCJlbWFpbCI6ImtldmluLmphY2tleUBrYXRhbG9uLmNvbSJ9.a4XkHxr2pC4Okg-2rlLE8x0US6tdgjwKluXNWP0j3NMZXcV1OOtnNxwUnOHrOufJjlQ9w3VCE4H9Wkksghs3CX98gdlJ9mQGPD5LEgYn1QrcmZ68y8ytXNEebE4E1dDRvXe-sleNAYD5GRmk1BRzNsaEe3EOL5elIXSqd17zW-t9SN5smPj-143Plh5uKJZYY-VQOC3I5jh2S3qzFobd5LMALhtjcin24jdsy7KR24m9exaZno69qsAs-bKuTaK9JDDWvDeqpaAvLmpgD9M2pQGy90BeXyhgQ8gnHypeRLLR2SQusaq6Gzff-WKMytqFsrjB0ipZftXl5TBlFy0Psw@testcloud.katalon.com/wd/hub
+2026-03-31 08:24:16.407 INFO  c.k.k.c.a.driver.AppiumDriverManager     - desiredCapabilities = {
+  "app": "1a033bbc-b9c7-46a9-9968-b3758109c714",
+  "Uiautomator2ServerLaunchTimeout": 200000,
+  "dontStopAppOnReset": false,
+  "enableAppProfiling": false,
+  "uiautomator2ServerInstallTimeout": 200000,
+  "appium:platformVersion": "16",
+  "appWaitDuration": 60000,
+  "enableNetwork": false,
+  "androidInstallTimeout": 200000,
+  "newCommandTimeout": 300,
+  "adbExecTimeout": 200000,
+  "automationName": "uiautomator2",
+  "autoGrantPermissions": true,
+  "appium:deviceName": "Any Phone",
+  "platformName": "ANDROID",
+  "ignoreHiddenApiPolicyError": true,
+  "katalon:options": {
+    "metadata": {
+      "organizationId": "3426286",
+      "accountId": "1658736",
+      "channel": "kse;v\u003d11.1.0",
+      "projectId": "3389113"
+    },
+    "appiumClientVersion": "10.0.0",
+    "executionMode": "queue",
+    "usingTunnel": false
+  }
+}
+2026-03-31 08:24:16.410 INFO  c.k.k.c.a.driver.AppiumDriverManager     - katalon:caps = {
+  "deviceName": "Samsung Galaxy S26 Plus",
+  "executionId": "aaa3bf33-c8ef-4369-84ad-efd5fcc39ca8",
+  "executionSessionId": "bf438579-5a97-4031-9539-2ca54f4d9f61"
+}
+2026-03-31 08:24:16.411 INFO  c.k.k.c.a.driver.AppiumDriverManager     - deviceName = Samsung Galaxy S26 Plus
+2026-03-31 08:24:16.725 DEBUG testcase.Login Member                    - 4: delay(25)

@@ -70,4 +70,4 @@ if (GlobalVariable.autoGrantPermissions == false) {
 }
 
 //Allow time for login to complete
-Mobile.delay(5)
+Mobile.delay(15)

@@ -8,7 +8,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-
+import com.common.actions.CommonFunctions
 
 import internal.GlobalVariable
 
@@ -25,19 +25,27 @@ class CloseMobileApplication {
        
     @AfterTestCase
     def afterTestCase(TestCaseContext testCaseContext) {
-        KeywordUtil.logInfo("[Listener] AFTER TEST CASE: ${testCaseContext.getTestCaseId()} | status=${testCaseContext.getTestCaseStatus()}")
-
-        // OPTIONAL: close after each test case (uncomment if you want isolation)
-        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test case')
-        Mobile.closeApplication(FailureHandling.OPTIONAL)
+		boolean applicationrunning = CommonFunctions.isApplicationRunning()
+		
+		if (applicationrunning) {
+	        KeywordUtil.logInfo("[Listener] AFTER TEST CASE: ${testCaseContext.getTestCaseId()} | status=${testCaseContext.getTestCaseStatus()}")
+	
+	        // OPTIONAL: close after each test case (uncomment if you want isolation)
+	        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test case')
+	        Mobile.closeApplication(FailureHandling.OPTIONAL)
+		}
     }
 
     @AfterTestSuite
     def afterTestSuite(TestSuiteContext testSuiteContext) {
-        KeywordUtil.logInfo("[Listener] AFTER TEST SUITE: ${testSuiteContext.getTestSuiteId()}")
-
-        // OPTIONAL: close after suite (uncomment if desired)
-        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test suite')
-        Mobile.closeApplication(FailureHandling.OPTIONAL)
+		boolean applicationrunning = CommonFunctions.isApplicationRunning()
+		
+		if (applicationrunning) {
+	        KeywordUtil.logInfo("[Listener] AFTER TEST SUITE: ${testSuiteContext.getTestSuiteId()}")
+	
+	        // OPTIONAL: close after suite (uncomment if desired)
+	        KeywordUtil.logInfo('[Listener][OPTIONAL] Closing application after test suite')
+	        Mobile.closeApplication(FailureHandling.OPTIONAL)
+		}
     }
 }

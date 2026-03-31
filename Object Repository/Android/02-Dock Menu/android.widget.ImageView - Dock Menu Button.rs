@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.ImageView - Dock Menu Button</name>
    <tag></tag>
-   <elementGuidId>54fd1e87-e563-41d9-90c2-7216b1c43c70</elementGuidId>
+   <elementGuidId>3b0034fa-67ac-452c-8f0b-146522ed9307</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>6debc615-f3a0-487c-8b8f-754b5083c037</webElementGuid>
+      <webElementGuid>6c10cbb0-5d44-423b-b866-65c7186ab22d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.sibisoft.clubnowautomation</value>
-      <webElementGuid>b6a9c7a6-7e9f-4466-8fb0-687a6277aec2</webElementGuid>
+      <webElementGuid>4455d79d-6f97-4fb2-bf2a-ec3b94057154</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dcb84b1c-0117-4b50-a3f8-7cb64fae0c8b</webElementGuid>
+      <webElementGuid>ddf6b02c-7833-49ee-be06-cf41d9970050</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>94ea3bbc-a189-465b-9bfc-17cfd20c4ba2</webElementGuid>
+      <webElementGuid>a7c12ac5-9228-49c7-85fb-a8d2a778ad12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8246e470-dbbd-4e15-b839-12d870f9ca89</webElementGuid>
+      <webElementGuid>33f12942-7b3a-45c9-8da7-e9a02c615e27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7b6169dc-28b1-45e4-81e3-ad136952e14e</webElementGuid>
+      <webElementGuid>c4fc9990-a6b7-4b6d-96d6-c08411ad65d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
       <value>com.sibisoft.clubnowautomation:id/txtValue4Description</value>
-      <webElementGuid>078f610a-9f5a-44d4-8cde-4991c092527b</webElementGuid>
+      <webElementGuid>cfb77322-311e-405f-9bbd-f4d1a6fe4051</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cbf191b1-283d-4806-bd85-b2096f2ce71b</webElementGuid>
+      <webElementGuid>bef7830a-fd53-49ef-9ee1-e01c5d1f914f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0a83f521-28cc-4e07-b520-7b9cd8a7f0a4</webElementGuid>
+      <webElementGuid>0b28fdaa-c617-4d66-9d48-d19d2568e679</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.ImageView</value>
-      <webElementGuid>7a0f14ac-a200-45a1-a7bf-156b19f045e6</webElementGuid>
+      <webElementGuid>63f6d2bc-0b30-469e-a3e3-120e7c566db0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f2df4b1e-baa9-43f8-a584-6f22ad5fc479</webElementGuid>
+      <webElementGuid>4806c003-0995-4eae-a306-07597e7daea2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[921,2091][1011,2178]</value>
-      <webElementGuid>cb157452-7455-4d26-b01b-b3426a9f24f6</webElementGuid>
+      <webElementGuid>65c3b8ba-2b92-4db1-a23f-41a1dedf5177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7eb698c2-8b69-4064-9f33-f267c0a5ab9a</webElementGuid>
+      <webElementGuid>ae234960-5913-4595-87c7-b61b14760e34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a5c7e780-b891-48df-9f44-5e0688157f61</webElementGuid>
+      <webElementGuid>8effbd7b-e410-42e5-9066-780426192129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Menu</value>
-      <webElementGuid>429f0154-bad6-45aa-b326-4b2d9610d58b</webElementGuid>
+      <webElementGuid>600d9f71-9a86-414e-ba08-52e9af6b2f13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.ImageView</value>
-      <webElementGuid>d3206820-9265-41e7-8a36-012b8fde21b5</webElementGuid>
+      <webElementGuid>f1157298-1807-44fd-83b3-b9f9a2dbe25a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ea117dcf-132a-44f8-8902-2ff162edcb94</webElementGuid>
+      <webElementGuid>8cdedfb9-ab27-4b3e-acae-7f979c4ba7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f0acaa9c-3d3a-4d72-8415-9d0556da574e</webElementGuid>
+      <webElementGuid>08d81ef4-9538-4958-9e10-06e514deb8ac</webElementGuid>
    </webElementProperties>
    <locatorCollection>
       <entry>
@@ -157,35 +157,35 @@
          <value>android.widget.ImageView</value>
       </entry>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@resource-id = 'com.sibisoft.clubnowautomation:id/txtValue4Description' and (@text = 'Menu' or . = 'Menu')]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.ImageView&quot;).resourceId(&quot;com.sibisoft.clubnowautomation:id/imgMenu&quot;)</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@resource-id=&quot;com.sibisoft.nsplus:id/txtValue4Description&quot;]</value>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>ID</key>
          <value>com.sibisoft.clubnowautomation:id/imgMenu</value>
       </entry>
       <entry>
-         <key>NAME</key>
+         <key>XPATH</key>
+         <value>//*[@resource-id=&quot;com.sibisoft.nsplus:id/txtValue4Description&quot;]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.ImageView&quot;).resourceId(&quot;com.sibisoft.clubnowautomation:id/imgMenu&quot;)</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[(@text = 'Menu' or . = 'Menu')]</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

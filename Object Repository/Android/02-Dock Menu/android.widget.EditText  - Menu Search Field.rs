@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.EditText  - Menu Search Field</name>
    <tag></tag>
-   <elementGuidId>cc11d714-f45a-4af6-b189-863b9d13c67e</elementGuidId>
+   <elementGuidId>507541f6-357a-4a87-8779-20986461fa53</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f1509fb3-063f-422f-af7e-866d53d68e43</webElementGuid>
+      <webElementGuid>08707bb4-3ffa-4d6a-b837-2c4e6502a62e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.sibisoft.clubnowautomation</value>
-      <webElementGuid>edf0b06e-ee90-4f6b-9667-969446101334</webElementGuid>
+      <webElementGuid>bb82e31a-a897-42b4-9773-fad648ed734c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>014107ab-08f9-4a2a-b638-203ded0c0c5c</webElementGuid>
+      <webElementGuid>61aaf91b-e207-46f5-a5f5-c32f441de81a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>35e7974a-ae5b-4a6d-8dd8-b3536c918ec4</webElementGuid>
+      <webElementGuid>026fbc4b-50f1-42ec-a3f6-ceeff800df1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8837610e-b12d-4eb7-ab66-2baa8cd0c594</webElementGuid>
+      <webElementGuid>d5c51dda-437a-4a96-84af-440f2fe913d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ad91aed5-cd08-4e16-8741-9857c3c2f881</webElementGuid>
+      <webElementGuid>ef2057fc-b9b8-4e51-9549-ec1a92e028d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>:r2q:</value>
-      <webElementGuid>6af352b3-84fa-4736-bc0b-6c351fc2f9de</webElementGuid>
+      <webElementGuid>eae38c8f-0ce3-4e95-b5bd-5f7283e55ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8e52c3cb-6911-4e33-b08d-1ec31abc0cda</webElementGuid>
+      <webElementGuid>8e27e114-3d62-46ff-a62e-d4168fe41652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b9317596-7013-4e39-88fc-d3708822d8b7</webElementGuid>
+      <webElementGuid>c0fecb7e-b543-4412-8eed-7b7ec3f8a69c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.widget.EditText</value>
-      <webElementGuid>85523d29-ade3-4a26-ac70-4c9953c46675</webElementGuid>
+      <webElementGuid>6694ca8a-aa67-42f3-9599-262b950a936a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>hint</name>
       <type>Main</type>
       <value>Search item</value>
-      <webElementGuid>34fbe634-dc2b-4baf-8ba4-eb7ab20b96ad</webElementGuid>
+      <webElementGuid>6cd9504d-c436-4633-bcd6-3002473b9527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>45834481-a65a-4a86-a066-5063099f15a8</webElementGuid>
+      <webElementGuid>90871aa9-ef58-4d67-990f-dceadcbf516a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[240,2025][696,2151]</value>
-      <webElementGuid>6be654c4-710e-43c9-bbb7-4da3f3c75fc2</webElementGuid>
+      <webElementGuid>c3dc3ae5-2d9a-4156-b724-2e8deec8698b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2b7ce021-bf4a-41ab-8704-949c6cb53a41</webElementGuid>
+      <webElementGuid>c8384bac-245b-46dc-aca4-f1a0b110aca3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7dca3600-537f-4c9a-b598-5317b2bde427</webElementGuid>
+      <webElementGuid>e1888157-23f8-4df2-a9aa-6646c5e0c1e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>ff819589-c865-47a6-b662-e48192ba9b7b</webElementGuid>
+      <webElementGuid>c3287033-18aa-4d72-be24-aca339b5c84f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -141,7 +141,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>12c25b0f-2819-4c7f-a7ec-c94d5e6998e4</webElementGuid>
+      <webElementGuid>6898d22d-7001-4b9e-a699-c64713e7845f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>04caffb6-c380-478b-9f9d-f63aa61f3fa7</webElementGuid>
+      <webElementGuid>9b3bc994-80bd-4f60-bf0f-76174f316e9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,43 +157,43 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a1cf7f4e-2bc3-4efe-beb5-808f3de1ac6d</webElementGuid>
+      <webElementGuid>891cefe8-4eb6-4f2a-9ad5-f353b83e7ace</webElementGuid>
    </webElementProperties>
    <locatorCollection>
       <entry>
-         <key>IMAGE</key>
+         <key>CLASS_NAME</key>
+         <value>android.widget.EditText</value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@resource-id=&quot;:r2q:&quot;]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).resourceId(&quot;:r2q:&quot;)</value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
          <key>ID</key>
          <value>:r2q:</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.EditText</value>
+         <key>XPATH</key>
+         <value>//*[@resource-id=&quot;:r2q:&quot;]</value>
       </entry>
       <entry>
          <key>CUSTOM</key>
       </entry>
       <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).resourceId(&quot;:r2q:&quot;)</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.EditText' and @resource-id = ':r2q:']</value>
+         <value>//*[@resource-id = ':r2q:' and (@text = '' or . = '') and @class = 'android.widget.EditText']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>XPATH</locatorStrategy>

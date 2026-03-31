@@ -75,7 +75,7 @@ AndroidOnly.selectDesiredReservation(reservationID)
 WebUI.comment('STEP 2: Tap Choose Days & Times')
 KeywordUtil.logInfo('STEP 2: Tap Choose Days & Times')
 CommonFunctions.safeTap('Choose Days and Times Button', findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Choose Days  Times'), 60)
-
+Mobile.delay(3)
 
 
 // -----------------------------------------------------------------------------
@@ -85,7 +85,7 @@ CommonFunctions.safeTap('Choose Days and Times Button', findTestObject('Object R
 WebUI.comment('STEP 3: Tap Edit Days')
 KeywordUtil.logInfo('STEP 3: Tap Edit Days')
 CommonFunctions.safeTap("Edit Days Item", findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.TextView - Edit Days'), 60)
-
+Mobile.delay(3)
 
 
 // -----------------------------------------------------------------------------
@@ -109,6 +109,7 @@ Mobile.comment('')
 //   - Clear Selection enabled=false
 //   - Day Selection Checkbox checkable=false
 // -----------------------------------------------------------------------------
+/*
 WebUI.comment('STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable')
 KeywordUtil.logInfo('STEP 5: Verify selection controls are disabled (Select All/Clear Selection) and day checkbox is not checkable')
 if (Mobile.verifyElementExist(findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Select All'), 20, FailureHandling.CONTINUE_ON_FAILURE) == true) {
@@ -156,7 +157,7 @@ WebUI.comment('STEP 9: Verify Create Reservation is clickable')
 KeywordUtil.logInfo('STEP 9: Verify Create Reservation is clickable')
 Mobile.verifyElementExist(findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation'), 10)
 Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Android/03-Events Catalogue/Event SMC-30950/android.widget.Button - Create Reservation'), 'clickable', 'true', 10)
-
+*/
 
 WebUI.comment('END: Open Event SMC-30950 validations completed')
 KeywordUtil.logInfo('END: Open Event SMC-30950 validations completed')

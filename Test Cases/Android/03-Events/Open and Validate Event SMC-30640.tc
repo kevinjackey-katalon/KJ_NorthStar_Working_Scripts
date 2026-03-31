@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open and Validate Event SMC-30640</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6d9d564-93b6-4436-9b15-a0d3d7c5cac6</testCaseGuid>
+</TestCaseEntity>
